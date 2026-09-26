@@ -1,0 +1,19 @@
+{
+    "Version": 0,
+    "title": "Papa Paden's Island Race",
+    "description": "Race to the end of the docks.\r\n",
+    "language": "English",
+    "metaData": "",
+    "visibility": 2,
+    "tags": [
+        "Minigame",
+        "Race",
+        "Parkour"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 2923694895,
+    "previewImageGuid": {
+        "serializedGuid": "00000000-0000-0000-0000-000000000000"
+    }
+}
