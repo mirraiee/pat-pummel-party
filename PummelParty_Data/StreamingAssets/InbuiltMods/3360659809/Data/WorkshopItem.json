@@ -1,0 +1,18 @@
+{
+    "Version": 0,
+    "title": "Road Crossing",
+    "description": "Cross the road, but be careful! The bad weather is obstructing the driver's view...",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Race"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 3360659809,
+    "previewImageGuid": {
+        "serializedGuid": "96ddde85-f1e6-4e9f-9ad2-18a6a6c07bc1"
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "Version": 0,
+    "SimpleMinigameSettings": {
+        "NumberOfRounds": 1,
+        "RoundDuration": 75.0,
+        "PointsToWin": 5,
+        "PlacementCondition": 0,
+        "EndConditions": 1,
+        "ChosenPlayerType": 1,
+        "SpawnType": 0,
+        "ShowPlayerScore": true,
+        "OnlyShowCombinedTeamScoreInTeams": false,
+        "MusicGUID": {
+            "serializedGuid": "729422e8-5367-408f-9be4-c6b6057ec340"
+        },
+        "MusicVolume": 0.3149999976158142,
+        "MinPlayersAlive": 1,
+        "AmbienceGUID": {
+            "serializedGuid": "95f39bad-14a2-42c0-a8b4-8e4cc7d0f69f"
+        },
+        "AmbienceVolume": 1.0
+    },
+    "SimpleModPlayerSettings": {
+        "topDownCameraMode": 0,
+        "topDownCameraViewAngle": 90.0,
+        "topDownCameraDistance": 17.797000885009767,
+        "topDownCameraPositionOffset": {
+            "x": 1.75,
+            "y": 0.0,
+            "z": -1.5
+        },
+        "topDownCamerafollowAllAreaRect": {
+            "serializedVersion": "2",
+            "x": -5.0,
+            "y": -5.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "sphereMaxMoveDist": 3.0,
+        "maxXMoveDist": 3.0,
+        "maxZMoveDist": 3.0,
+        "topDownCameraFollowAllType": 1,
+        "movementSpeed": 6.0,
+        "movementAcceleration": 50.0,
+        "movementDecelaration": 50.0,
+        "midAirMovementAcceleration": 8.0,
+        "playerGravity": 26.19999885559082,
+        "jumpCount": 1,
+        "canJump": true,
+        "jumpSpeed": 5.0,
+        "coyoteTime": 0.20000000298023225,
+        "stepOffset": 0.5,
+        "canPunch": false,
+        "punchRechargeSpeed": 0.75,
+        "punchDamage": 1,
+        "punchStunsTarget": false,
+        "punchStunDuration": 1.0,
+        "stunImmunityLength": 3.0,
+        "shootDistance": 12.0,
+        "shootRechargeSpeed": 0.10000000149011612,
+        "shotSpreadVertical": 45.0,
+        "shotSpreadHorizontal": 20.0,
+        "bulletsPerShot": 1,
+        "firstShotCentred": true,
+        "firingPattern": 0,
+        "respawnEnabled": true,
+        "respawnTime": 0.0,
+        "respawnInvulnerableTime": 0.0,
+        "respawnAnimationType": 0,
+        "hitTrigger": {
+            "m_type": 64,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "weaponHitTrigger": {
+            "m_type": 80,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "tickTrigger": {
+            "m_type": 96,
+            "m_actions": [],
+            "m_interval": {
+                "valueType": 0,
+                "min": 1.0,
+                "max": 2.0
+            }
+        },
+        "onDeathTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onRespawnTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onFirstSpawnTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onRoundEndTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "useHealth": false,
+        "showHealthBar": false,
+        "health": 100,
+        "showNameTags": true,
+        "nameTagType": 1
+    },
+    "references": {
+        "version": 2,
+        "RefIds": []
+    }
+}

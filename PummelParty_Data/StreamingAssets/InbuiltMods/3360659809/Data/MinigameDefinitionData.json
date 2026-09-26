@@ -1,0 +1,184 @@
+{
+    "MinigameName": "Road Crossing",
+    "Description": "Cross the road, but be careful! The bad weather is obstructing the driver's view...\n\nÜberquere die Straße, aber Vorsicht! Das schlechte Wetter behindert die Sicht der Fahrer...",
+    "MinigameNameToken": "MinigameName",
+    "DescriptionToken": "DescriptionName",
+    "ScreenshotTextureGuid": "96ddde85-f1e6-4e9f-9ad2-18a6a6c07bc1",
+    "MinPlayers": 2,
+    "MaxPlayers": 8,
+    "InputHelp": {
+        "keyboard": [
+            {
+                "isFolded": true,
+                "keyboardActionID": 23,
+                "joystickActionID": 23,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Jump",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Up",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Left",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Down",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Right",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 35,
+                "joystickActionID": 35,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Use Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 101,
+                "joystickActionID": 101,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Drop Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            }
+        ],
+        "controller": [
+            {
+                "isFolded": true,
+                "keyboardActionID": 23,
+                "joystickActionID": 23,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Jump",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Up",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Left",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Down",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Right",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 35,
+                "joystickActionID": 35,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Use Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 101,
+                "joystickActionID": 101,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Drop Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            }
+        ],
+        "seperateControllerActions": false
+    }
+}
