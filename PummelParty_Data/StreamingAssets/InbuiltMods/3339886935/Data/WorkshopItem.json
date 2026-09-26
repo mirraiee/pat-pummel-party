@@ -1,0 +1,20 @@
+{
+    "Version": 0,
+    "title": "Obstacle course 3 with punch",
+    "description": "A basic obstacle course minigame. Includes triggers to respawn the player when they fall, moving platforms and a goal.\nPunch cooldown: 3 seconds.\nDouble jump enabled!\nEnjoy.",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Funny",
+        "Parkour",
+        "Race"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 3339886935,
+    "previewImageGuid": {
+        "serializedGuid": "006fc7fb-dd62-4f2c-9e30-9f079dc8ca2a"
+    }
+}
