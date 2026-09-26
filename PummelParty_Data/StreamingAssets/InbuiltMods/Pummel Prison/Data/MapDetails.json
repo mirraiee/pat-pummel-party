@@ -1,0 +1,88 @@
+{
+    "MapName": "PummelPrisonMapName",
+    "SceneName": "Default_Scene",
+    "Description": "PummelPrisonMapDescription",
+    "MapExtents": {
+        "serializedVersion": "2",
+        "x": -48.54237747192383,
+        "y": -50.9075813293457,
+        "width": 83.6006851196289,
+        "height": 62.33858108520508
+    },
+    "PreviewImageGuid": {
+        "serializedGuid": "e7195c89-d24e-4215-8166-b5cde164fe2f"
+    },
+    "OverrideSpacePrefabs": false,
+    "OverrideSpace": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "SpacePrefabOverrideGuids": [
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        }
+    ],
+    "MusicGuid": {
+        "serializedGuid": "729422e8-5367-408f-9be4-c6b6057ec340"
+    },
+    "MusicVol": 0.6679999828338623,
+    "AmbienceGuid": {
+        "serializedGuid": "defc70ad-5fb0-403f-919a-98dce7ca2e8c"
+    },
+    "AmbienceVol": 1.0,
+    "SupportsWeaponCache": true,
+    "UseCustomChestShuffleLocation": true,
+    "ChestShuffleLocation": {
+        "x": -43.29999923706055,
+        "y": 0.30000001192092898,
+        "z": -26.299999237060548
+    },
+    "DefaultGoalChestCount": 1
+}

@@ -1,0 +1,206 @@
+{
+    "MinigameName": "Third Person Obstacle Course",
+    "Description": "A basic obstacle course minigame. \nIncludes triggers to respawn the player when they fall, moving platforms, items that change gravity and a goal.",
+    "ScreenshotTextureGuid": "78e6e02d-3ad0-405c-809a-b8aa52b5574a",
+    "MinPlayers": 2,
+    "MaxPlayers": 8,
+    "InputHelp": {
+        "keyboard": [
+            {
+                "isFolded": true,
+                "keyboardActionID": 23,
+                "joystickActionID": 23,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Jump",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Forward",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Strafe Left",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Backward",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Strafe Right",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 4,
+                "joystickActionID": 42,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Aim",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 35,
+                "joystickActionID": 35,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Punch / Use Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 27,
+                "joystickActionID": 27,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Drop Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            }
+        ],
+        "controller": [
+            {
+                "isFolded": true,
+                "keyboardActionID": 23,
+                "joystickActionID": 23,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Jump",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Forward",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Strafe Left",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Backward",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Strafe Right",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 4,
+                "joystickActionID": 42,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Aim",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 35,
+                "joystickActionID": 35,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Punch / Use Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 27,
+                "joystickActionID": 27,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Drop Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            }
+        ],
+        "seperateControllerActions": false
+    }
+}

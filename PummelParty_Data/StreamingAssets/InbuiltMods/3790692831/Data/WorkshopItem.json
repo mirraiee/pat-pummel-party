@@ -1,0 +1,28 @@
+{
+    "Version": 0,
+    "title": "Block Party",
+    "description": "Run to the color on screen, before all other colors disappear. Everyone gets 1 life, and rounds get progressively harder. Players obtain points by surviving as many rounds as they can, and the player/team with the most points when the game ends, wins. Mini",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Creative",
+        "Platformer",
+        "Parkour"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 1,
+            "path": "Mf0P-mAmKX8",
+            "guid": {
+                "serializedGuid": "00000000-0000-0000-0000-000000000000"
+            }
+        }
+    ],
+    "publishedFileId": 3790692831,
+    "previewImageGuid": {
+        "serializedGuid": "e5edbfb3-3918-4fe2-981b-f6a1c8add64f"
+    }
+}

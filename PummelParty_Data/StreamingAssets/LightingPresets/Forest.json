@@ -1,0 +1,91 @@
+{
+    "version": 0,
+    "presetName": "Forest",
+    "stars": false,
+    "topColor": {
+        "r": 0.13555556535720826,
+        "g": 0.45185184478759768,
+        "b": 0.17772835493087769,
+        "a": 1.0
+    },
+    "horizonColor": {
+        "r": 0.5988644957542419,
+        "g": 0.9296296238899231,
+        "b": 0.47858715057373049,
+        "a": 1.0
+    },
+    "groundColor": {
+        "r": 0.30753082036972048,
+        "g": 0.5888888835906982,
+        "b": 0.5021688342094421,
+        "a": 1.0
+    },
+    "haloColor": {
+        "r": 0.6934568285942078,
+        "g": 0.9111111164093018,
+        "b": 0.475802481174469,
+        "a": 1.0
+    },
+    "haloExponent": 11.258999824523926,
+    "haloStrength": 1.0509999990463257,
+    "shadowDistance": 200.0,
+    "shadowCascades": 4,
+    "shadowCascade4Split": {
+        "x": 0.06700000166893006,
+        "y": 0.20000000298023225,
+        "z": 0.46700000762939455
+    },
+    "shadowProjection": 1,
+    "shadowCascade2Split": 0.20000000298023225,
+    "ambientMode": 3,
+    "ambientIntensity": 1.2999999523162842,
+    "ambientSkyColor": {
+        "r": 0.4211342930793762,
+        "g": 0.517123281955719,
+        "b": 0.41440701484680178,
+        "a": 1.0
+    },
+    "ambientEquatorColor": {
+        "r": 0.11372549086809159,
+        "g": 0.125490203499794,
+        "b": 0.13333334028720857,
+        "a": 1.0
+    },
+    "ambientGroundColor": {
+        "r": 0.0470588244497776,
+        "g": 0.04313725605607033,
+        "b": 0.03529411926865578,
+        "a": 1.0
+    },
+    "fog": true,
+    "fogColor": {
+        "r": 0.8832001090049744,
+        "g": 0.9554794430732727,
+        "b": 0.5333669781684876,
+        "a": 1.0
+    },
+    "fogMode": 2,
+    "fogDensity": 0.009999999776482582,
+    "fogStartDistance": 0.0,
+    "fogEndDistance": 60.0,
+    "defaultReflectionMode": 0,
+    "reflectionIntensity": 1.0,
+    "cloudShadows": true,
+    "cloudSpeed1": -0.03999999910593033,
+    "cloudSpeed2": 0.03999999910593033,
+    "cloudStrength": 0.32600000500679018,
+    "cloudScale": 40.0,
+    "globalLightRotation": {
+        "x": 120.0,
+        "y": 30.0,
+        "z": 0.0
+    },
+    "globalLightColor": {
+        "r": 1.0,
+        "g": 0.8955714106559753,
+        "b": 0.7123287916183472,
+        "a": 1.0
+    },
+    "globalLightIntensity": 0.6000000238418579,
+    "globalLightShadows": 2
+}

@@ -1,0 +1,94 @@
+{
+    "version": 0,
+    "presetName": "Custom",
+    "stars": false,
+    "topColor": {
+        "r": 0.8256145119667053,
+        "g": 0.8256155848503113,
+        "b": 0.8256227970123291,
+        "a": 1.0
+    },
+    "horizonColor": {
+        "r": 1.0,
+        "g": 0.8454418778419495,
+        "b": 0.6156584024429321,
+        "a": 1.0
+    },
+    "groundColor": {
+        "r": 0.9679715037345886,
+        "g": 0.5605577230453491,
+        "b": 0.3685869872570038,
+        "a": 1.0
+    },
+    "haloColor": {
+        "r": 0.9145907163619995,
+        "g": 0.7980895638465881,
+        "b": 0.2180696427822113,
+        "a": 1.0
+    },
+    "haloExponent": 9.62600040435791,
+    "haloStrength": 1.0,
+    "shadowDistance": 200.0,
+    "shadowCascades": 4,
+    "shadowCascade4Split": {
+        "x": 0.06700000166893006,
+        "y": 0.20000000298023225,
+        "z": 0.46700000762939455
+    },
+    "shadowProjection": 1,
+    "shadowCascade2Split": 0.20000000298023225,
+    "ambientMode": 1,
+    "ambientIntensity": 1.0,
+    "ambientSkyColor": {
+        "r": 1.0,
+        "g": 0.9036169648170471,
+        "b": 0.6761565804481506,
+        "a": 1.0
+    },
+    "ambientEquatorColor": {
+        "r": 0.27959370613098147,
+        "g": 0.3312768042087555,
+        "b": 0.35231316089630129,
+        "a": 1.0
+    },
+    "ambientGroundColor": {
+        "r": 0.2788085341453552,
+        "g": 0.6128793358802795,
+        "b": 0.9217081665992737,
+        "a": 1.0
+    },
+    "fog": false,
+    "fogColor": {
+        "r": 0.5,
+        "g": 0.5,
+        "b": 0.5,
+        "a": 1.0
+    },
+    "fogMode": 2,
+    "fogDensity": 0.0,
+    "fogStartDistance": 0.0,
+    "fogEndDistance": 300.0,
+    "defaultReflectionMode": 0,
+    "reflectionIntensity": 1.0,
+    "cloudShadows": false,
+    "cloudSpeed1": 0.11999999731779099,
+    "cloudSpeed2": 0.13750000298023225,
+    "cloudStrength": 1.0,
+    "cloudScale": 200.0,
+    "cloudIntensity": 0.699999988079071,
+    "globalLightEnabled": true,
+    "globalLightRotation": {
+        "x": 130.0,
+        "y": 25.0,
+        "z": 0.0
+    },
+    "globalLightColor": {
+        "r": 1.0,
+        "g": 0.9599220156669617,
+        "b": 0.8434163331985474,
+        "a": 1.0
+    },
+    "globalLightIntensity": 0.6000000238418579,
+    "globalShadowItensity": 1.0,
+    "globalLightShadows": 2
+}

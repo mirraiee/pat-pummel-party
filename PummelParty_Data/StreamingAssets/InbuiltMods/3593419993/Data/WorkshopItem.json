@@ -1,0 +1,42 @@
+{
+    "Version": 0,
+    "title": "Reckless Rumble Vikings Edition",
+    "description": "Punch your friends and win! \n5 Rounds 3 Points per hit \n\nHave Fun punching your Friend!",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "King of the hill",
+        "Hazards",
+        "Deathmatch"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "3728886d-7329-40e3-b272-e80c65a6dda6"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "5953de28-37f5-4179-b152-daaf00133b07"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "b9e86e4a-7a0a-462c-83c4-af499d02c19e"
+            }
+        }
+    ],
+    "publishedFileId": 3593419993,
+    "previewImageGuid": {
+        "serializedGuid": "e54cd7ef-0a9e-4eb8-89a4-73eddd7b7e98"
+    }
+}

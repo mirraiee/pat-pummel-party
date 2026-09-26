@@ -1,0 +1,28 @@
+{
+    "Version": 0,
+    "title": "Hex-A-Gone",
+    "description": "A minigame re-created from a popular bean-based videogame.\n\nTiles disappear when you step on them; avoid falling into the slime at the bottom of the level to win!",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Fast-paced",
+        "Platformer",
+        "Skillful"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "96607e2d-ba3a-445e-8027-ae1ae8f32849"
+            }
+        }
+    ],
+    "publishedFileId": 2900194943,
+    "previewImageGuid": {
+        "serializedGuid": "7f92d974-ae81-4cf9-947e-512cc58cb674"
+    }
+}

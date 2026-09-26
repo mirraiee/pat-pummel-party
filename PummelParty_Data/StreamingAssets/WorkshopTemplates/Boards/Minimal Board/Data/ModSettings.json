@@ -1,0 +1,14 @@
+{
+    "Version": 0,
+    "CameraSettings": {
+        "CameraMode": 0,
+        "CameraViewAngle": 37.5,
+        "CameraFov": 60.0,
+        "CameraDistance": 13.0,
+        "CameraSize": 5.0
+    },
+    "CustomSpaceSettings": {
+        "m_customSpacePrefabs": []
+    },
+    "UseCustomBoardSize": false
+}

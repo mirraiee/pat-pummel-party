@@ -1,0 +1,20 @@
+{
+    "Version": 0,
+    "title": "Gladiator Glory",
+    "description": "t",
+    "language": "English",
+    "metaData": "",
+    "visibility": 2,
+    "tags": [
+        "Minigame",
+        "Deathmatch",
+        "Items",
+        "Fast-paced"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 3365865644,
+    "previewImageGuid": {
+        "serializedGuid": "700895c4-5bd2-477b-8719-229ef9bb3507"
+    }
+}

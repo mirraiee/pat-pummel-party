@@ -1,0 +1,81 @@
+{
+    "MapName": "Advanced Board",
+    "SceneName": "Default_Scene",
+    "Description": "A board mod setup with some examples of custom spaces and board space events.\nUse this if you want to learn some more advance board creation techniques.",
+    "MapExtents": {
+        "serializedVersion": "2",
+        "x": -15.5,
+        "y": -18.0,
+        "width": 46.5,
+        "height": 34.5
+    },
+    "PreviewImageGuid": {
+        "serializedGuid": "29b6c006-1d40-4b51-acd7-085ca949f42c"
+    },
+    "OverrideSpacePrefabs": false,
+    "OverrideSpace": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "SpacePrefabOverrideGuids": [
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        }
+    ],
+    "MusicGuid": {
+        "serializedGuid": "3ac2bff4-9bc6-406e-8e6f-b725dc69e08a"
+    },
+    "MusicVol": 0.5,
+    "AmbienceGuid": {
+        "serializedGuid": "05f5b5c8-5190-49d7-ad7a-f154db4e4f29"
+    },
+    "AmbienceVol": 0.30000001192092898,
+    "SupportsWeaponCache": true
+}

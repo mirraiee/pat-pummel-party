@@ -1,0 +1,20 @@
+{
+    "Version": 0,
+    "title": "Pummel Prison",
+    "description": "Prison Break! Escape the prison while trying not to get caught by the guards.",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Board",
+        "Unlocked",
+        "Medium",
+        "Dark"
+    ],
+    "isInternal": true,
+    "previewFiles": [],
+    "publishedFileId": 513,
+    "previewImageGuid": {
+        "serializedGuid": "00000000-0000-0000-0000-000000000000"
+    }
+}

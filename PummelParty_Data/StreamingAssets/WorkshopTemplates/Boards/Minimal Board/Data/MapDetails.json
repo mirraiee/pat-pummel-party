@@ -1,0 +1,80 @@
+{
+    "MapName": "Minimal Board",
+    "SceneName": "Default_Scene",
+    "Description": "A board mod setup with the minimum requirements to be playable. \nUse this as a starting point for your own boards.",
+    "MapExtents": {
+        "serializedVersion": "2",
+        "x": -5.5,
+        "y": -8.5,
+        "width": 11.0,
+        "height": 17.0
+    },
+    "PreviewImageGuid": {
+        "serializedGuid": "29b6c006-1d40-4b51-acd7-085ca949f42c"
+    },
+    "OverrideSpacePrefabs": false,
+    "OverrideSpace": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "SpacePrefabOverrideGuids": [
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        }
+    ],
+    "MusicGuid": {
+        "serializedGuid": "3ac2bff4-9bc6-406e-8e6f-b725dc69e08a"
+    },
+    "MusicVol": 0.5,
+    "AmbienceGuid": {
+        "serializedGuid": "05f5b5c8-5190-49d7-ad7a-f154db4e4f29"
+    },
+    "AmbienceVol": 0.30000001192092898
+}

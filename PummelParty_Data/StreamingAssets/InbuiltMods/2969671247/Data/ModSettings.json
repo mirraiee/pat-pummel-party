@@ -1,0 +1,134 @@
+{
+    "Version": 0,
+    "SimpleMinigameSettings": {
+        "NumberOfRounds": 1,
+        "RoundDuration": 60.0,
+        "PointsToWin": 5,
+        "PlacementCondition": 3,
+        "EndConditions": 5,
+        "ChosenPlayerType": 1,
+        "SpawnType": 1,
+        "MusicGUID": {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        "MusicVolume": 0.30000001192092898,
+        "MinPlayersAlive": 1,
+        "AmbienceGUID": {
+            "serializedGuid": "a1912e0e-7e07-463a-8a31-9529ee3b5e89"
+        },
+        "AmbienceVolume": 1.0
+    },
+    "SimpleModPlayerSettings": {
+        "topDownCameraMode": 1,
+        "topDownCameraViewAngle": 45.29399871826172,
+        "topDownCameraDistance": 1.0,
+        "topDownCameraPositionOffset": {
+            "x": 0.0,
+            "y": 10.0,
+            "z": -15.0
+        },
+        "topDownCamerafollowAllAreaRect": {
+            "serializedVersion": "2",
+            "x": -5.0,
+            "y": -5.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "sphereMaxMoveDist": 3.0,
+        "maxXMoveDist": 3.0,
+        "maxZMoveDist": 3.0,
+        "topDownCameraFollowAllType": 1,
+        "movementSpeed": 6.0,
+        "movementAcceleration": 50.0,
+        "movementDecelaration": 50.0,
+        "midAirMovementAcceleration": 8.0,
+        "playerGravity": 25.0,
+        "jumpCount": 1,
+        "canJump": true,
+        "jumpSpeed": 7.0,
+        "coyoteTime": 0.20000000298023225,
+        "stepOffset": 0.20000000298023225,
+        "canPunch": true,
+        "punchRechargeSpeed": 2.0,
+        "punchDamage": 0,
+        "punchStunsTarget": true,
+        "punchStunDuration": 1.0,
+        "stunImmunityLength": 3.0,
+        "shootDistance": 12.0,
+        "shootRechargeSpeed": 0.10000000149011612,
+        "startHoldingRifle": false,
+        "shotSpreadVertical": 45.0,
+        "shotSpreadHorizontal": 20.0,
+        "bulletsPerShot": 1,
+        "firstShotCentred": true,
+        "firingPattern": 0,
+        "respawnEnabled": false,
+        "respawnTime": 3.0,
+        "respawnInvulnerableTime": 1.0,
+        "respawnAnimationType": 1,
+        "hitTrigger": {
+            "m_type": 64,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "weaponHitTrigger": {
+            "m_type": 80,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "tickTrigger": {
+            "m_type": 96,
+            "m_actions": [],
+            "m_interval": {
+                "valueType": 0,
+                "min": 1.0,
+                "max": 2.0
+            }
+        },
+        "onDeathTrigger": {
+            "m_type": 0,
+            "m_actions": [
+                {
+                    "id": 0
+                }
+            ]
+        },
+        "onRespawnTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onFirstSpawnTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "useHealth": true,
+        "showHealthBar": false,
+        "health": 100
+    },
+    "references": {
+        "version": 1,
+        "00000000": {
+            "type": {
+                "class": "ChangeScoreAction",
+                "ns": "ModSystem.Logic",
+                "asm": "Assembly-CSharp"
+            },
+            "data": {
+                "m_type": 128,
+                "m_version": 0,
+                "m_targetFlags": 0,
+                "m_targets": [],
+                "m_operation": 2,
+                "m_value": 5
+            }
+        },
+        "00000001": {
+            "type": {
+                "class": "Terminus",
+                "ns": "UnityEngine.DMAT",
+                "asm": "FAKE_ASM"
+            },
+            "data": {}
+        }
+    }
+}

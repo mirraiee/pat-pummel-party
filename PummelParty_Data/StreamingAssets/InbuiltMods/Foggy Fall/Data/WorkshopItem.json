@@ -1,0 +1,18 @@
+{
+    "Version": 0,
+    "title": "Foggy Fall",
+    "description": "",
+    "language": "english",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Unlocked"
+    ],
+    "isInternal": true,
+    "previewFiles": [],
+    "publishedFileId": 512,
+    "previewImageGuid": {
+        "serializedGuid": "00000000-0000-0000-0000-000000000000"
+    }
+}

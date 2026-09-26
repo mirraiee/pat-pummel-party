@@ -1,0 +1,18 @@
+{
+    "Version": 0,
+    "title": "Pummel Punch",
+    "description": "",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Unlocked"
+    ],
+    "isInternal": true,
+    "previewFiles": [],
+    "publishedFileId": 515,
+    "previewImageGuid": {
+        "serializedGuid": "9d5dabbe-95bc-4c34-91de-837ca9ad0eed"
+    }
+}

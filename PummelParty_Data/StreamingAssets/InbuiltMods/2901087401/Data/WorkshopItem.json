@@ -1,0 +1,19 @@
+{
+    "Version": 0,
+    "title": "SteadySmash",
+    "description": "Punch people into the water until only one player remains or the timer runs out (3 rounds)",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Deathmatch",
+        "Fast-paced"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 2901087401,
+    "previewImageGuid": {
+        "serializedGuid": "00000000-0000-0000-0000-000000000000"
+    }
+}

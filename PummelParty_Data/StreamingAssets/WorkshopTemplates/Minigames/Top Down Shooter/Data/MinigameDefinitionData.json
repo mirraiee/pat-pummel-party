@@ -1,0 +1,182 @@
+{
+    "MinigameName": "Top Down Shooter",
+    "Description": "An example of a top-down shooter minigame.\n",
+    "ScreenshotTextureGuid": "50daca8a-2437-4d9a-82f6-520c518003ad",
+    "MinPlayers": 2,
+    "MaxPlayers": 8,
+    "InputHelp": {
+        "keyboard": [
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Up",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Left",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Down",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Right",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 4,
+                "joystickActionID": 42,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Aim",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 35,
+                "joystickActionID": 35,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Punch / Use Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 27,
+                "joystickActionID": 27,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Drop Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            }
+        ],
+        "controller": [
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Up",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Left",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Down",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Right",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 4,
+                "joystickActionID": 42,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Aim",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 35,
+                "joystickActionID": 35,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Punch / Use Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 27,
+                "joystickActionID": 27,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Drop Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            }
+        ],
+        "seperateControllerActions": false
+    }
+}

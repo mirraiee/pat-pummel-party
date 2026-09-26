@@ -1,0 +1,208 @@
+{
+    "MinigameName": "Cici's P城大逃杀",
+    "Description": "活到最后！水塔下有一个坦克，每30秒刷新出一个。\n坦克每秒回复3 HP，自带秒杀炮，并且可以双持拾取的武器进行双发射击。\nBe the last survivor! A tank spawns under the water tower every 30 seconds.\nThe tank regenerates 3 HP per second, comes equipped with a one-shot cannon, and can dual-wield picked-up weapons to fire both at once.",
+    "MinigameNameToken": "MinigameName",
+    "DescriptionToken": "DescriptionName",
+    "ScreenshotTextureGuid": "5de4b2ef-072d-4946-afef-cbab0d2806a5",
+    "MinPlayers": 2,
+    "MaxPlayers": 8,
+    "InputHelp": {
+        "keyboard": [
+            {
+                "isFolded": true,
+                "keyboardActionID": 23,
+                "joystickActionID": 23,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Jump",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Forward",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Strafe Left",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Backward",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Strafe Right",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 47,
+                "joystickActionID": 47,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Aim",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 35,
+                "joystickActionID": 35,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Punch / Use Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 101,
+                "joystickActionID": 101,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Drop Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            }
+        ],
+        "controller": [
+            {
+                "isFolded": true,
+                "keyboardActionID": 23,
+                "joystickActionID": 23,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Jump",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Forward",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Strafe Left",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 25,
+                "joystickActionID": 25,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Walk Backward",
+                "detailed": true,
+                "axisContribution": 1,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 24,
+                "joystickActionID": 24,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Strafe Right",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 47,
+                "joystickActionID": 47,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Aim",
+                "detailed": true,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 35,
+                "joystickActionID": 35,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Punch / Use Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 1,
+                "priority": 0
+            },
+            {
+                "isFolded": true,
+                "keyboardActionID": 101,
+                "joystickActionID": 101,
+                "keyboardAction": "",
+                "joystickAction": "",
+                "description": "Drop Item",
+                "detailed": false,
+                "axisContribution": 0,
+                "controllerType": 0,
+                "priority": 0
+            }
+        ],
+        "seperateControllerActions": false
+    }
+}

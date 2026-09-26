@@ -1,0 +1,17 @@
+{
+    "Version": 0,
+    "title": "Aftershock Arena",
+    "description": "",
+    "language": "english",
+    "metaData": "",
+    "visibility": 2,
+    "tags": [
+        "Minigame"
+    ],
+    "isInternal": true,
+    "previewFiles": [],
+    "publishedFileId": 514,
+    "previewImageGuid": {
+        "serializedGuid": "00000000-0000-0000-0000-000000000000"
+    }
+}

@@ -1,0 +1,183 @@
+{
+    "Version": 0,
+    "CameraSettings": {
+        "CameraMode": 0,
+        "CameraViewAngle": 37.5,
+        "CameraFov": 60.0,
+        "CameraDistance": 13.0,
+        "CameraSize": 5.0
+    },
+    "CustomSpaceSettings": {
+        "m_customSpacePrefabs": [
+            {
+                "m_assetGUID": {
+                    "serializedGuid": "62a25c1c-d10b-4292-a057-417c9acc57b5"
+                },
+                "m_asset": {
+                    "enabled": true,
+                    "name": "ShopSpace",
+                    "guid": {
+                        "serializedGuid": "62a25c1c-d10b-4292-a057-417c9acc57b5"
+                    },
+                    "tags": [
+                        "prefabs",
+                        "medium"
+                    ],
+                    "assetTypeString": "",
+                    "atlasIndex": 2147483647,
+                    "atlasPtrIndex": 2147483647,
+                    "assetLocation": {
+                        "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                    },
+                    "assetFolder": "/Prefabs/",
+                    "isEnabled": true
+                }
+            },
+            {
+                "m_assetGUID": {
+                    "serializedGuid": "d8f15582-3257-4f3d-87fb-d61bec15927a"
+                },
+                "m_asset": {
+                    "enabled": true,
+                    "name": "ToggleSpace",
+                    "guid": {
+                        "serializedGuid": "d8f15582-3257-4f3d-87fb-d61bec15927a"
+                    },
+                    "tags": [
+                        "prefabs",
+                        "tiny"
+                    ],
+                    "assetTypeString": "",
+                    "atlasIndex": 2147483647,
+                    "atlasPtrIndex": 2147483647,
+                    "assetLocation": {
+                        "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                    },
+                    "assetFolder": "/Prefabs/",
+                    "isEnabled": true
+                }
+            },
+            {
+                "m_assetGUID": {
+                    "serializedGuid": "ae11c972-22e9-485c-b200-388db68b287b"
+                },
+                "m_asset": {
+                    "enabled": true,
+                    "name": "ElevatorSpace",
+                    "guid": {
+                        "serializedGuid": "ae11c972-22e9-485c-b200-388db68b287b"
+                    },
+                    "tags": [
+                        "prefabs",
+                        "tiny"
+                    ],
+                    "assetTypeString": "",
+                    "atlasIndex": 2147483647,
+                    "atlasPtrIndex": 2147483647,
+                    "assetLocation": {
+                        "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                    },
+                    "assetFolder": "/Prefabs/",
+                    "isEnabled": true
+                }
+            },
+            {
+                "m_assetGUID": {
+                    "serializedGuid": "1364f890-ae26-4b61-942e-66e2c8f201dd"
+                },
+                "m_asset": {
+                    "enabled": true,
+                    "name": "PayToEnterSpace",
+                    "guid": {
+                        "serializedGuid": "1364f890-ae26-4b61-942e-66e2c8f201dd"
+                    },
+                    "tags": [
+                        "prefabs",
+                        "tiny"
+                    ],
+                    "assetTypeString": "",
+                    "atlasIndex": 2147483647,
+                    "atlasPtrIndex": 2147483647,
+                    "assetLocation": {
+                        "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                    },
+                    "assetFolder": "/Prefabs/",
+                    "isEnabled": true
+                }
+            },
+            {
+                "m_assetGUID": {
+                    "serializedGuid": "835d3c4c-a1d0-4269-ae6a-54d1d6d49401"
+                },
+                "m_asset": {
+                    "enabled": true,
+                    "name": "PayToEnterCloseSpace",
+                    "guid": {
+                        "serializedGuid": "835d3c4c-a1d0-4269-ae6a-54d1d6d49401"
+                    },
+                    "tags": [
+                        "prefabs",
+                        "tiny"
+                    ],
+                    "assetTypeString": "",
+                    "atlasIndex": 2147483647,
+                    "atlasPtrIndex": 2147483647,
+                    "assetLocation": {
+                        "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                    },
+                    "assetFolder": "/Prefabs/",
+                    "isEnabled": true
+                }
+            },
+            {
+                "m_assetGUID": {
+                    "serializedGuid": "a94f0882-f3e7-4c08-ab92-81a5761b49ea"
+                },
+                "m_asset": {
+                    "enabled": true,
+                    "name": "RandomIntersection",
+                    "guid": {
+                        "serializedGuid": "a94f0882-f3e7-4c08-ab92-81a5761b49ea"
+                    },
+                    "tags": [
+                        "prefabs",
+                        "tiny"
+                    ],
+                    "assetTypeString": "",
+                    "atlasIndex": 2147483647,
+                    "atlasPtrIndex": 2147483647,
+                    "assetLocation": {
+                        "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                    },
+                    "assetFolder": "/Prefabs/",
+                    "isEnabled": true
+                }
+            },
+            {
+                "m_assetGUID": {
+                    "serializedGuid": "ba109e14-80e3-4a77-bcd8-c593afd1f5d0"
+                },
+                "m_asset": {
+                    "enabled": true,
+                    "name": "EnableLogicComponentSpace",
+                    "guid": {
+                        "serializedGuid": "ba109e14-80e3-4a77-bcd8-c593afd1f5d0"
+                    },
+                    "tags": [
+                        "prefabs",
+                        "tiny"
+                    ],
+                    "assetTypeString": "",
+                    "atlasIndex": 2147483647,
+                    "atlasPtrIndex": 2147483647,
+                    "assetLocation": {
+                        "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                    },
+                    "assetFolder": "/Prefabs/",
+                    "isEnabled": true
+                }
+            }
+        ]
+    },
+    "UseCustomBoardSize": false
+}

@@ -1,0 +1,28 @@
+{
+    "Version": 0,
+    "title": "Shot in the Dark",
+    "description": "In this pitch black arena, your only friends are your shotgun and your flashlight. Duke it out with your friends or with AI in this fast paced shoot out. The person with the most kills wins!\r\n\r\n2/18/23\r\nTHANK YOU ALL SO MUCH!!!\r\nI just came back to check o",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Deathmatch",
+        "Shooter",
+        "Fast-paced"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 1,
+            "path": "https://www.youtube.com/watch?v=-mqTWs8AWTE",
+            "guid": {
+                "serializedGuid": "00000000-0000-0000-0000-000000000000"
+            }
+        }
+    ],
+    "publishedFileId": 2929154985,
+    "previewImageGuid": {
+        "serializedGuid": "d63207fb-349b-4136-ab3a-dc2762615fe9"
+    }
+}

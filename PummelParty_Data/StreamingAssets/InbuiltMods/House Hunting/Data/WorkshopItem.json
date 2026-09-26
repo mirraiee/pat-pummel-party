@@ -1,0 +1,18 @@
+{
+    "Version": 0,
+    "title": "House Hunting",
+    "description": "",
+    "language": "english",
+    "metaData": "",
+    "visibility": 2,
+    "tags": [
+        "Minigame",
+        "Unlocked"
+    ],
+    "isInternal": true,
+    "previewFiles": [],
+    "publishedFileId": 516,
+    "previewImageGuid": {
+        "serializedGuid": "00000000-0000-0000-0000-000000000000"
+    }
+}

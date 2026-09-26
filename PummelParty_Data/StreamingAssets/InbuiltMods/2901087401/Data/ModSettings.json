@@ -1,0 +1,376 @@
+{
+    "Version": 0,
+    "SimpleMinigameSettings": {
+        "NumberOfRounds": 3,
+        "RoundDuration": 65.0,
+        "PointsToWin": 5,
+        "PlacementCondition": 3,
+        "EndConditions": 5,
+        "ChosenPlayerType": 0,
+        "SpawnType": 0,
+        "MusicGUID": {
+            "serializedGuid": "4d52ac95-0ffe-43f4-92f5-da24fe40488d"
+        },
+        "MusicVolume": 1.0,
+        "MinPlayersAlive": 1,
+        "AmbienceGUID": {
+            "serializedGuid": "05f5b5c8-5190-49d7-ad7a-f154db4e4f29"
+        },
+        "AmbienceVolume": 0.2240000069141388
+    },
+    "SimpleModPlayerSettings": {
+        "topDownCameraMode": 0,
+        "topDownCameraViewAngle": 54.0,
+        "topDownCameraDistance": 6.849999904632568,
+        "topDownCameraPositionOffset": {
+            "x": 0.0,
+            "y": 3.950000047683716,
+            "z": -5.300000190734863
+        },
+        "topDownCamerafollowAllAreaRect": {
+            "serializedVersion": "2",
+            "x": -5.0,
+            "y": -5.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "sphereMaxMoveDist": 3.0,
+        "maxXMoveDist": 3.0,
+        "maxZMoveDist": 3.0,
+        "topDownCameraFollowAllType": 1,
+        "movementSpeed": 8.0,
+        "movementAcceleration": 60.0,
+        "movementDecelaration": 60.0,
+        "midAirMovementAcceleration": 19.0,
+        "playerGravity": 25.0,
+        "jumpCount": 1,
+        "canJump": true,
+        "jumpSpeed": 7.0,
+        "coyoteTime": 0.20000000298023225,
+        "stepOffset": 0.5,
+        "canPunch": true,
+        "punchRechargeSpeed": 0.75,
+        "punchDamage": 8,
+        "punchStunsTarget": false,
+        "punchStunDuration": 1.0,
+        "stunImmunityLength": 3.0,
+        "shootDistance": 12.0,
+        "shootRechargeSpeed": 0.10000000149011612,
+        "startHoldingRifle": false,
+        "shotSpreadVertical": 45.0,
+        "shotSpreadHorizontal": 20.0,
+        "bulletsPerShot": 1,
+        "firstShotCentred": true,
+        "firingPattern": 0,
+        "respawnEnabled": false,
+        "respawnTime": 3.0,
+        "respawnInvulnerableTime": 1.0,
+        "respawnAnimationType": 0,
+        "hitTrigger": {
+            "m_type": 64,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "weaponHitTrigger": {
+            "m_type": 80,
+            "m_actions": [
+                {
+                    "rid": 1000
+                },
+                {
+                    "rid": 1001
+                },
+                {
+                    "rid": 1002
+                },
+                {
+                    "rid": 1003
+                },
+                {
+                    "rid": 1004
+                },
+                {
+                    "rid": 1005
+                },
+                {
+                    "rid": 1006
+                },
+                {
+                    "rid": 1007
+                },
+                {
+                    "rid": 1008
+                }
+            ],
+            "m_hitType": 1
+        },
+        "tickTrigger": {
+            "m_type": 96,
+            "m_actions": [],
+            "m_interval": {
+                "valueType": 0,
+                "min": 1.0,
+                "max": 2.0
+            }
+        },
+        "onDeathTrigger": {
+            "m_type": 0,
+            "m_actions": [
+                {
+                    "rid": 1009
+                },
+                {
+                    "rid": 1010
+                },
+                {
+                    "rid": 1011
+                }
+            ]
+        },
+        "onRespawnTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onFirstSpawnTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onRoundEndTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "useHealth": true,
+        "showHealthBar": true,
+        "health": 100,
+        "nameTagType": 3
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "SpawnEffectAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 160,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_effectType": 4
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "StunPlayerAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 1088,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_stunDuration": 0.10000000149011612
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "ChangeVelocityAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 832,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_operation": 2,
+                    "m_space": 0,
+                    "m_localTarget": 1,
+                    "m_velocityDir": 6,
+                    "m_customDir": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "m_speed": 24.0
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "ChangeVelocityAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 832,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_operation": 1,
+                    "m_space": 0,
+                    "m_localTarget": 1,
+                    "m_velocityDir": 0,
+                    "m_customDir": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "m_speed": 9.0
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "ChangeScoreAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 128,
+                    "m_version": 0,
+                    "m_targetFlags": 1,
+                    "m_targets": [],
+                    "m_operation": 1,
+                    "m_value": 3
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "ChangeVelocityAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 832,
+                    "m_version": 0,
+                    "m_targetFlags": 1,
+                    "m_targets": [],
+                    "m_operation": 1,
+                    "m_space": 0,
+                    "m_localTarget": 1,
+                    "m_velocityDir": 0,
+                    "m_customDir": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "m_speed": 6.0
+                }
+            },
+            {
+                "rid": 1006,
+                "type": {
+                    "class": "ModifyPlayerAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 512,
+                    "m_version": 0,
+                    "m_targetFlags": 1,
+                    "m_targets": [],
+                    "m_playerActionType": 0,
+                    "m_movementSpeed": 0.800000011920929,
+                    "m_gravity": {
+                        "x": 0.0,
+                        "y": -9.8100004196167,
+                        "z": 0.0
+                    }
+                }
+            },
+            {
+                "rid": 1007,
+                "type": {
+                    "class": "WaitAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 32,
+                    "m_version": 0,
+                    "m_seconds": {
+                        "valueType": 0,
+                        "min": 0.5,
+                        "max": 2.0
+                    }
+                }
+            },
+            {
+                "rid": 1008,
+                "type": {
+                    "class": "ModifyPlayerAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 512,
+                    "m_version": 0,
+                    "m_targetFlags": 1,
+                    "m_targets": [],
+                    "m_playerActionType": 0,
+                    "m_movementSpeed": 1.0,
+                    "m_gravity": {
+                        "x": 0.0,
+                        "y": -9.8100004196167,
+                        "z": 0.0
+                    }
+                }
+            },
+            {
+                "rid": 1009,
+                "type": {
+                    "class": "SpawnEffectAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 160,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_effectType": 1
+                }
+            },
+            {
+                "rid": 1010,
+                "type": {
+                    "class": "WaitAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 32,
+                    "m_version": 0,
+                    "m_seconds": {
+                        "valueType": 0,
+                        "min": 0.12999999523162843,
+                        "max": 2330.0
+                    }
+                }
+            },
+            {
+                "rid": 1011,
+                "type": {
+                    "class": "SpawnEffectAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 160,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_effectType": 2
+                }
+            }
+        ]
+    }
+}

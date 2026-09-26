@@ -1,0 +1,20 @@
+{
+    "Version": 0,
+    "title": "Cici's P城大逃杀",
+    "description": "活到最后！水塔下有一个坦克，每30秒刷新出一个。\n坦克每秒回复3 HP，自带秒杀炮，并且可以双持拾取的武器进行双发射击。\nBe the last survivor! A tank spawns under the water tower every 30 seconds.\nThe tank regenerates 3 HP per second, comes equipped with a one-shot cannon, and can dual-wield picked-up weapons to fire both at once.",
+    "language": "Schinese",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Fast-paced",
+        "Deathmatch",
+        "Shooter"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 3781344621,
+    "previewImageGuid": {
+        "serializedGuid": "00000000-0000-0000-0000-000000000000"
+    }
+}

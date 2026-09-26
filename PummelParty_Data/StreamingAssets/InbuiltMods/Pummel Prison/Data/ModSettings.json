@@ -1,0 +1,63 @@
+{
+    "Version": 0,
+    "CameraSettings": {
+        "CameraMode": 0,
+        "CameraViewAngle": 37.5,
+        "CameraFov": 60.0,
+        "CameraDistance": 13.0,
+        "CameraSize": 5.0
+    },
+    "CustomSpaceSettings": {
+        "m_customSpacePrefabs": [
+            {
+                "m_assetGUID": {
+                    "serializedGuid": "959d175e-8de7-47d3-be6c-3ee140f565f7"
+                },
+                "m_asset": {
+                    "enabled": true,
+                    "name": "BoardSpace_Police",
+                    "guid": {
+                        "serializedGuid": "959d175e-8de7-47d3-be6c-3ee140f565f7"
+                    },
+                    "tags": [
+                        "prefabs",
+                        "large"
+                    ],
+                    "assetTypeString": "",
+                    "atlasIndex": 6,
+                    "atlasPtrIndex": 2147483647,
+                    "assetLocation": {
+                        "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                    },
+                    "assetFolder": "/Prefabs/",
+                    "isEnabled": true
+                }
+            },
+            {
+                "m_assetGUID": {
+                    "serializedGuid": "12338595-8609-4abd-91b7-3868a62dfe59"
+                },
+                "m_asset": {
+                    "enabled": true,
+                    "name": "BoardSpace_Exit",
+                    "guid": {
+                        "serializedGuid": "12338595-8609-4abd-91b7-3868a62dfe59"
+                    },
+                    "tags": [
+                        "prefabs",
+                        "small"
+                    ],
+                    "assetTypeString": "",
+                    "atlasIndex": 4,
+                    "atlasPtrIndex": 2147483647,
+                    "assetLocation": {
+                        "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                    },
+                    "assetFolder": "/Prefabs/",
+                    "isEnabled": true
+                }
+            }
+        ]
+    },
+    "UseCustomBoardSize": false
+}

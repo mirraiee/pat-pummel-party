@@ -1,0 +1,91 @@
+{
+    "version": 0,
+    "presetName": "Watermelon",
+    "stars": false,
+    "topColor": {
+        "r": 0.0,
+        "g": 1.0,
+        "b": 0.7555556297302246,
+        "a": 1.0
+    },
+    "horizonColor": {
+        "r": 1.0,
+        "g": 0.9999899864196777,
+        "b": 0.9999939799308777,
+        "a": 1.0
+    },
+    "groundColor": {
+        "r": 0.26754459738731387,
+        "g": 0.6814814805984497,
+        "b": 0.5251052975654602,
+        "a": 1.0
+    },
+    "haloColor": {
+        "r": 0.5481481552124023,
+        "g": 0.28828534483909609,
+        "b": 0.4037801921367645,
+        "a": 1.0
+    },
+    "haloExponent": 7.4019999504089359,
+    "haloStrength": 1.8630000352859498,
+    "shadowDistance": 50.0,
+    "shadowCascades": 4,
+    "shadowCascade4Split": {
+        "x": 0.06700000166893006,
+        "y": 0.20000000298023225,
+        "z": 0.46700000762939455
+    },
+    "shadowProjection": 1,
+    "shadowCascade2Split": 0.20000000298023225,
+    "ambientMode": 3,
+    "ambientIntensity": 0.8999999761581421,
+    "ambientSkyColor": {
+        "r": 0.544004499912262,
+        "g": 0.7123287916183472,
+        "b": 0.5636045336723328,
+        "a": 1.0
+    },
+    "ambientEquatorColor": {
+        "r": 0.21176470816135407,
+        "g": 0.125490203499794,
+        "b": 0.13333334028720857,
+        "a": 1.0
+    },
+    "ambientGroundColor": {
+        "r": 0.21176470816135407,
+        "g": 0.04313725605607033,
+        "b": 0.03529411926865578,
+        "a": 1.0
+    },
+    "fog": true,
+    "fogColor": {
+        "r": 1.0,
+        "g": 0.5410958528518677,
+        "b": 0.8087902069091797,
+        "a": 1.0
+    },
+    "fogMode": 2,
+    "fogDensity": 0.009999999776482582,
+    "fogStartDistance": 0.0,
+    "fogEndDistance": 100.0,
+    "defaultReflectionMode": 0,
+    "reflectionIntensity": 1.0,
+    "cloudShadows": false,
+    "cloudSpeed1": 0.11999999731779099,
+    "cloudSpeed2": 0.13750000298023225,
+    "cloudStrength": 1.0,
+    "cloudScale": 200.0,
+    "globalLightRotation": {
+        "x": 120.0,
+        "y": 50.0,
+        "z": 0.0
+    },
+    "globalLightColor": {
+        "r": 0.9665705561637878,
+        "g": 0.8047945499420166,
+        "b": 1.0,
+        "a": 1.0
+    },
+    "globalLightIntensity": 0.4000000059604645,
+    "globalLightShadows": 2
+}

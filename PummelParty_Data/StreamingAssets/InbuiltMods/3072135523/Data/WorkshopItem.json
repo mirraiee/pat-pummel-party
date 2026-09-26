@@ -1,0 +1,20 @@
+{
+    "Version": 0,
+    "title": "Fanta Man",
+    "description": "Run away from the fanta can and punch your enemies to death.\r\n\r\nPick up the hidden guns to shoot your enemies throughout the map.",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Creative",
+        "Fast-paced",
+        "Race"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 3072135523,
+    "previewImageGuid": {
+        "serializedGuid": "c6c3646e-767b-413b-9fc5-39103246f480"
+    }
+}
