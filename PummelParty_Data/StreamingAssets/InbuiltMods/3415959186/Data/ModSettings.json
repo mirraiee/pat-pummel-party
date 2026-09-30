@@ -1,0 +1,275 @@
+{
+    "Version": 0,
+    "SimpleMinigameSettings": {
+        "NumberOfRounds": 1,
+        "RoundDuration": 90.0,
+        "PointsToWin": 5,
+        "PlacementCondition": 0,
+        "EndConditions": 1,
+        "ChosenPlayerType": 1,
+        "SpawnType": 1,
+        "ShowPlayerScore": true,
+        "OnlyShowCombinedTeamScoreInTeams": false,
+        "MusicGUID": {
+            "serializedGuid": "13dbf0ac-803d-49d1-997f-0a559bd43061"
+        },
+        "MusicVolume": 0.4059999883174896,
+        "MinPlayersAlive": 1,
+        "AmbienceGUID": {
+            "serializedGuid": "defc70ad-5fb0-403f-919a-98dce7ca2e8c"
+        },
+        "AmbienceVolume": 0.6110000014305115
+    },
+    "SimpleModPlayerSettings": {
+        "topDownCameraMode": 0,
+        "topDownCameraViewAngle": 56.53799819946289,
+        "topDownCameraDistance": 7.572999954223633,
+        "topDownCameraPositionOffset": {
+            "x": -2.0,
+            "y": 15.0,
+            "z": -7.5
+        },
+        "topDownCamerafollowAllAreaRect": {
+            "serializedVersion": "2",
+            "x": -5.0,
+            "y": -5.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "sphereMaxMoveDist": 3.0,
+        "maxXMoveDist": 3.0,
+        "maxZMoveDist": 3.0,
+        "topDownCameraFollowAllType": 1,
+        "movementSpeed": 6.0,
+        "movementAcceleration": 50.0,
+        "movementDecelaration": 50.0,
+        "midAirMovementAcceleration": 8.0,
+        "playerGravity": 25.0,
+        "jumpCount": 1,
+        "canJump": true,
+        "jumpSpeed": 7.0,
+        "coyoteTime": 0.20000000298023225,
+        "stepOffset": 0.20000000298023225,
+        "canPunch": true,
+        "punchRechargeSpeed": 3.0,
+        "punchDamage": 0,
+        "punchStunsTarget": true,
+        "punchStunDuration": 2.0,
+        "stunImmunityLength": 3.0,
+        "shootDistance": 12.0,
+        "shootRechargeSpeed": 0.10000000149011612,
+        "shotSpreadVertical": 45.0,
+        "shotSpreadHorizontal": 20.0,
+        "bulletsPerShot": 1,
+        "firstShotCentred": true,
+        "firingPattern": 0,
+        "respawnEnabled": true,
+        "respawnTime": 3.0,
+        "respawnInvulnerableTime": 1.0,
+        "respawnAnimationType": 1,
+        "hitTrigger": {
+            "m_type": 64,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "weaponHitTrigger": {
+            "m_type": 80,
+            "m_actions": [
+                {
+                    "rid": 1000
+                }
+            ],
+            "m_hitType": 1
+        },
+        "tickTrigger": {
+            "m_type": 96,
+            "m_actions": [],
+            "m_interval": {
+                "valueType": 0,
+                "min": 1.0,
+                "max": 2.0
+            }
+        },
+        "onDeathTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onRespawnTrigger": {
+            "m_type": 0,
+            "m_actions": [
+                {
+                    "rid": 1001
+                }
+            ]
+        },
+        "onFirstSpawnTrigger": {
+            "m_type": 0,
+            "m_actions": [
+                {
+                    "rid": 1002
+                },
+                {
+                    "rid": 1003
+                },
+                {
+                    "rid": 1004
+                }
+            ]
+        },
+        "onRoundEndTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "useHealth": true,
+        "showHealthBar": false,
+        "health": 100,
+        "showNameTags": true,
+        "nameTagType": 3
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ChangeVelocityAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 832,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_operation": 1,
+                    "m_space": 0,
+                    "m_localTarget": 1,
+                    "m_velocityDir": 7,
+                    "m_customDir": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "m_speed": 8.0
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "GiveMinigameItemAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 1056,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_item": {
+                        "m_assetGUID": {
+                            "serializedGuid": "2dbb28ba-77df-4c11-97e9-7a641eabf740"
+                        },
+                        "m_asset": {
+                            "enabled": true,
+                            "name": "playerDie",
+                            "guid": {
+                                "serializedGuid": "2dbb28ba-77df-4c11-97e9-7a641eabf740"
+                            },
+                            "tags": [
+                                "prefabs",
+                                "tiny"
+                            ],
+                            "assetTypeString": "",
+                            "atlasIndex": 1,
+                            "atlasPtrIndex": 0,
+                            "assetLocation": {
+                                "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                            },
+                            "assetFolder": "/Prefabs/",
+                            "isEnabled": true
+                        }
+                    }
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "PositionAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 384,
+                    "m_version": 0,
+                    "m_targetFlags": 4,
+                    "m_targets": [
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "27b7995f-fdb0-4616-85cd-209eeb69a6bd"
+                            },
+                            "m_asset": {
+                                "m_FileID": -1591512,
+                                "m_PathID": 0
+                            }
+                        }
+                    ],
+                    "m_space": 1,
+                    "m_operation": 0,
+                    "m_position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "WaitAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 32,
+                    "m_version": 0,
+                    "m_seconds": {
+                        "valueType": 0,
+                        "min": 0.10000000149011612,
+                        "max": 2.0
+                    }
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "PositionAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 384,
+                    "m_version": 0,
+                    "m_targetFlags": 4,
+                    "m_targets": [
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "27b7995f-fdb0-4616-85cd-209eeb69a6bd"
+                            },
+                            "m_asset": {
+                                "m_FileID": -1591512,
+                                "m_PathID": 0
+                            }
+                        }
+                    ],
+                    "m_space": 1,
+                    "m_operation": 0,
+                    "m_position": {
+                        "x": 0.0,
+                        "y": 100.0,
+                        "z": 0.0
+                    }
+                }
+            }
+        ]
+    }
+}

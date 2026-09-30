@@ -1,0 +1,159 @@
+{
+    "Version": 0,
+    "SimpleMinigameSettings": {
+        "NumberOfRounds": 1,
+        "RoundDuration": 138.0,
+        "PointsToWin": 5,
+        "PlacementCondition": 2,
+        "EndConditions": 1,
+        "ChosenPlayerType": 0,
+        "SpawnType": 0,
+        "MusicGUID": {
+            "serializedGuid": "7c12fbc7-6434-4ec3-a283-dd5966b930ae"
+        },
+        "MusicVolume": 1.0,
+        "MinPlayersAlive": 1,
+        "AmbienceGUID": {
+            "serializedGuid": "c4996455-3858-4745-bc2c-d684762e4097"
+        },
+        "AmbienceVolume": 0.9049999713897705
+    },
+    "SimpleModPlayerSettings": {
+        "topDownCameraMode": 0,
+        "topDownCameraViewAngle": 0.0,
+        "topDownCameraDistance": 1.0,
+        "topDownCameraPositionOffset": {
+            "x": 0.0,
+            "y": 3.950000047683716,
+            "z": -5.300000190734863
+        },
+        "topDownCamerafollowAllAreaRect": {
+            "serializedVersion": "2",
+            "x": -5.0,
+            "y": -5.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "sphereMaxMoveDist": 3.0,
+        "maxXMoveDist": 3.0,
+        "maxZMoveDist": 3.0,
+        "topDownCameraFollowAllType": 1,
+        "movementSpeed": 15.0,
+        "movementAcceleration": 50.0,
+        "movementDecelaration": 20.0,
+        "midAirMovementAcceleration": 8.0,
+        "playerGravity": 23.92500114440918,
+        "jumpCount": 2,
+        "canJump": false,
+        "jumpSpeed": 10.0,
+        "coyoteTime": 0.20000000298023225,
+        "stepOffset": 0.0,
+        "canPunch": false,
+        "punchRechargeSpeed": 1.0,
+        "punchDamage": 0,
+        "punchStunsTarget": false,
+        "punchStunDuration": 1.0,
+        "stunImmunityLength": 3.0,
+        "shootDistance": 12.0,
+        "shootRechargeSpeed": 0.10000000149011612,
+        "startHoldingRifle": false,
+        "shotSpreadVertical": 45.0,
+        "shotSpreadHorizontal": 20.0,
+        "bulletsPerShot": 1,
+        "firstShotCentred": true,
+        "firingPattern": 0,
+        "respawnEnabled": true,
+        "respawnTime": 3.0,
+        "respawnInvulnerableTime": 1.0,
+        "respawnAnimationType": 0,
+        "hitTrigger": {
+            "m_type": 64,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "weaponHitTrigger": {
+            "m_type": 80,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "tickTrigger": {
+            "m_type": 96,
+            "m_actions": [],
+            "m_interval": {
+                "valueType": 0,
+                "min": 1.0,
+                "max": 2.0
+            }
+        },
+        "onDeathTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onRespawnTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onFirstSpawnTrigger": {
+            "m_type": 0,
+            "m_actions": [
+                {
+                    "id": 0
+                }
+            ]
+        },
+        "useHealth": false,
+        "showHealthBar": false,
+        "health": 100
+    },
+    "references": {
+        "version": 1,
+        "00000000": {
+            "type": {
+                "class": "SetPlayerVisualAction",
+                "ns": "ModSystem.Logic",
+                "asm": "Assembly-CSharp"
+            },
+            "data": {
+                "m_type": 1248,
+                "m_version": 1,
+                "m_targetFlags": 2,
+                "m_targets": [],
+                "m_prefab": {
+                    "m_assetGUID": {
+                        "serializedGuid": "58e13b26-e1f6-4f2c-bb1b-3c744bb5bf85"
+                    },
+                    "m_asset": {
+                        "enabled": true,
+                        "name": "Prefab_0",
+                        "guid": {
+                            "serializedGuid": "58e13b26-e1f6-4f2c-bb1b-3c744bb5bf85"
+                        },
+                        "tags": [
+                            "prefabs",
+                            "medium"
+                        ],
+                        "assetTypeString": "",
+                        "atlasIndex": 16,
+                        "atlasPtrIndex": 2147483647,
+                        "assetLocation": {
+                            "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                        },
+                        "assetFolder": "/Prefabs/",
+                        "isEnabled": true
+                    }
+                },
+                "m_recolorPrefabUsingPlayerColor": true,
+                "m_verticalLookTargetChildIndex": -1,
+                "m_movementRotationTargetChildIndex": -1
+            }
+        },
+        "00000001": {
+            "type": {
+                "class": "Terminus",
+                "ns": "UnityEngine.DMAT",
+                "asm": "FAKE_ASM"
+            },
+            "data": {}
+        }
+    }
+}

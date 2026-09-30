@@ -1,0 +1,19 @@
+{
+    "Version": 0,
+    "title": "Spinner Jump (in the Ocean!)",
+    "description": "Jump over the spinner! But watch out! It gets faster and faster! ",
+    "language": "English",
+    "metaData": "",
+    "visibility": 1,
+    "tags": [
+        "Minigame",
+        "Platformer",
+        "Relaxed"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 3294395378,
+    "previewImageGuid": {
+        "serializedGuid": "154a31aa-16a1-494d-bbb1-bfff8988d911"
+    }
+}

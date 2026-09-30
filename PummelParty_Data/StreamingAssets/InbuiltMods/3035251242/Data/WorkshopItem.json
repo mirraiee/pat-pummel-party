@@ -1,0 +1,17 @@
+{
+    "Version": 0,
+    "title": "King of the Hill",
+    "description": "Inspired by Crab Game.\n\nStay on the top to earn points. Knock opponnents off by using your stick.\nPickup a gun to apply knockbar from range, you only have 1 shot!\nYou can only enter the top with a stick!\n\n~ Miukure",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 3035251242,
+    "previewImageGuid": {
+        "serializedGuid": "00000000-0000-0000-0000-000000000000"
+    }
+}

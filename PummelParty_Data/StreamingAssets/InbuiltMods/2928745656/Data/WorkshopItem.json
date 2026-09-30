@@ -1,0 +1,20 @@
+{
+    "Version": 0,
+    "title": "Project Taxi",
+    "description": "Race to the end while dodging taxi cab's down this narrow street. \n\nPunch to stun.\n\n(Low effort prop movement experiment)",
+    "language": "English",
+    "metaData": "",
+    "visibility": 2,
+    "tags": [
+        "Minigame",
+        "Creative",
+        "Race",
+        "Hazards"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 2928745656,
+    "previewImageGuid": {
+        "serializedGuid": "a90c09da-6798-4e69-b811-1ba2a99047e7"
+    }
+}

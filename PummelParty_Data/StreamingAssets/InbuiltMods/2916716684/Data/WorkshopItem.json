@@ -1,0 +1,56 @@
+{
+    "Version": 0,
+    "title": "FALL GUYS | JUMP CLUB ",
+    "description": "This is a map made to feel like the original fall guys map!\n\nTry to stay on the rim as the pillars build up in speed. If you fall in the water you will drown!\n\n",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Deathmatch",
+        "Fast-paced",
+        "King of the hill"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "00000000-0000-0000-0000-000000000000"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "d44abb0f-f900-4d2b-ae98-ef2832665b1e"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "623a388a-d79a-4568-9e2f-94338de2c83b"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "70bcfad4-a3f3-4d3c-9104-a79454d3716a"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "c46f6672-0a65-436d-969c-8774a70df06f"
+            }
+        }
+    ],
+    "publishedFileId": 2916716684,
+    "previewImageGuid": {
+        "serializedGuid": "ebf81326-6a18-4130-a526-7888d90afe76"
+    }
+}

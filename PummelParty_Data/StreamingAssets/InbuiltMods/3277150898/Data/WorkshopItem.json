@@ -1,0 +1,35 @@
+{
+    "Version": 0,
+    "title": "Sinking Paths (Hardcore Edition)",
+    "description": "Versuche so oft wie möglich auf die gegenüberliegende Seite zu gelangen, um 25 Punkte zu bekommen. Sammle nebenbei die leuchtenden Kugeln ein, für extra Punkte. Achte auf die Raketen und roten Laser.\n\nYellow: 1 Point / Blue: 3 Points / Purple: 5 Points / Death: -1 Point\n\nTry to get to the opposite side as often as possible to score 25 points. Collect the glowing balls along the way for extra points. Watch out for the rockets and red lasers.",
+    "language": "German",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Skillful",
+        "Parkour",
+        "Race"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "80d437ce-3de7-4eee-959a-fe853ab44e8b"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "e84d77b4-8f4c-48e6-b039-833ccbab4344"
+            }
+        }
+    ],
+    "publishedFileId": 3277150898,
+    "previewImageGuid": {
+        "serializedGuid": "80d437ce-3de7-4eee-959a-fe853ab44e8b"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "Version": 0,
+    "title": "Bulldog",
+    "description": "A recreation of the classic british schoolyard game, bulldog. One player is a bulldog and has to prevent the other players from getting to the other side ",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Funny",
+        "Race",
+        "Skillful"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "811b5d86-b578-48c7-9275-a66b43b67cb1"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "bd9b2054-2e22-47a8-8d62-0b2f46189f36"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "e076e9a1-71af-4da6-b9e3-9feb675c29a6"
+            }
+        }
+    ],
+    "publishedFileId": 3415959186,
+    "previewImageGuid": {
+        "serializedGuid": "60101dd9-6d30-4092-986a-71f21702c680"
+    }
+}

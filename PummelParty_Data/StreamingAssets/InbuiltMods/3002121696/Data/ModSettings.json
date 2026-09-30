@@ -1,0 +1,153 @@
+{
+    "Version": 0,
+    "SimpleMinigameSettings": {
+        "NumberOfRounds": 1,
+        "RoundDuration": 180.0,
+        "PointsToWin": 5,
+        "PlacementCondition": 0,
+        "EndConditions": 1,
+        "ChosenPlayerType": 0,
+        "SpawnType": 1,
+        "MusicGUID": {
+            "serializedGuid": "dd2545cc-d058-4e37-9c3c-211f7b6cb0f1"
+        },
+        "MusicVolume": 1.0,
+        "MinPlayersAlive": 1,
+        "AmbienceGUID": {
+            "serializedGuid": "bf42857c-15d1-4054-b862-f03a966c20cb"
+        },
+        "AmbienceVolume": 1.0
+    },
+    "SimpleModPlayerSettings": {
+        "topDownCameraMode": 0,
+        "topDownCameraViewAngle": 35.0,
+        "topDownCameraDistance": 10.0,
+        "topDownCameraPositionOffset": {
+            "x": 0.0,
+            "y": 3.950000047683716,
+            "z": -5.300000190734863
+        },
+        "topDownCamerafollowAllAreaRect": {
+            "serializedVersion": "2",
+            "x": -5.0,
+            "y": -5.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "sphereMaxMoveDist": 3.0,
+        "maxXMoveDist": 3.0,
+        "maxZMoveDist": 3.0,
+        "topDownCameraFollowAllType": 1,
+        "movementSpeed": 9.0,
+        "movementAcceleration": 75.0,
+        "movementDecelaration": 75.0,
+        "midAirMovementAcceleration": 8.0,
+        "playerGravity": 25.0,
+        "jumpCount": 1,
+        "canJump": true,
+        "jumpSpeed": 8.0,
+        "coyoteTime": 0.20000000298023225,
+        "stepOffset": 0.3109999895095825,
+        "canPunch": false,
+        "punchRechargeSpeed": 0.75,
+        "punchDamage": 1,
+        "punchStunsTarget": false,
+        "punchStunDuration": 1.0,
+        "stunImmunityLength": 3.0,
+        "shootDistance": 12.0,
+        "shootRechargeSpeed": 0.10000000149011612,
+        "startHoldingRifle": false,
+        "shotSpreadVertical": 45.0,
+        "shotSpreadHorizontal": 20.0,
+        "bulletsPerShot": 1,
+        "firstShotCentred": true,
+        "firingPattern": 0,
+        "respawnEnabled": true,
+        "respawnTime": 3.0,
+        "respawnInvulnerableTime": 2.0,
+        "respawnAnimationType": 1,
+        "hitTrigger": {
+            "m_type": 64,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "weaponHitTrigger": {
+            "m_type": 80,
+            "m_actions": [
+                {
+                    "id": 0
+                }
+            ],
+            "m_hitType": 2
+        },
+        "tickTrigger": {
+            "m_type": 96,
+            "m_actions": [],
+            "m_interval": {
+                "valueType": 0,
+                "min": 1.0,
+                "max": 2.0
+            }
+        },
+        "onDeathTrigger": {
+            "m_type": 0,
+            "m_actions": [
+                {
+                    "id": 1
+                }
+            ]
+        },
+        "onRespawnTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onFirstSpawnTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "useHealth": true,
+        "showHealthBar": false,
+        "health": 30
+    },
+    "references": {
+        "version": 1,
+        "00000000": {
+            "type": {
+                "class": "ChangeScoreAction",
+                "ns": "ModSystem.Logic",
+                "asm": "Assembly-CSharp"
+            },
+            "data": {
+                "m_type": 128,
+                "m_version": 0,
+                "m_targetFlags": 1,
+                "m_targets": [],
+                "m_operation": 1,
+                "m_value": 2
+            }
+        },
+        "00000001": {
+            "type": {
+                "class": "ChangeScoreAction",
+                "ns": "ModSystem.Logic",
+                "asm": "Assembly-CSharp"
+            },
+            "data": {
+                "m_type": 128,
+                "m_version": 0,
+                "m_targetFlags": 1,
+                "m_targets": [],
+                "m_operation": 1,
+                "m_value": 4
+            }
+        },
+        "00000002": {
+            "type": {
+                "class": "Terminus",
+                "ns": "UnityEngine.DMAT",
+                "asm": "FAKE_ASM"
+            },
+            "data": {}
+        }
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "Version": 0,
+    "title": "The Great Pirate TREASURE - Mine Car Race",
+    "description": "(Part 2) Oh oh oh ! Freshwater sailors !!! Well, you've reached the entrance to \"Captain Rinry the Yellow's\" cave, but you're still a long way from reaching his treasure ! You'll have to cross his huge mine using an old wagon, as old as the tracks... which",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Creative",
+        "Race",
+        "Parkour"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "08937a82-0d04-4e1e-9856-2fd3804769b1"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "8906253d-a301-476a-9ae1-0a33d81e576d"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "fe0a1c27-c46e-4730-973a-35e4fcc3f582"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "956e6856-ad5e-4beb-b11b-6e36c1ec9e59"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "7edf29c4-b48b-4798-a474-64e567c9ba36"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "07b7c636-2b86-4f71-aba3-f9669a5434b1"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "0822725d-fc9a-4bcc-a88e-3bf1f61e45e4"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "6456936b-3b9a-461f-9873-25ef5537c879"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "3415e7cb-b746-445e-ad92-f798fb9d2f90"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "c0248fb8-270e-4b9e-a44c-18e1d42a5bed"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "5fab6300-f6e6-46fb-82c8-4101c6b2585a"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "91955ffe-1711-41d2-af1c-4b1666f64288"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "a01dc23b-cbec-4db2-ba51-f1e7f465c16a"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "e7bf1747-7b1c-4ddf-bab8-5b860819f400"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "56bd28bb-7310-43a2-872b-1493f610020b"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "651ef1f4-78c1-4764-ac80-39ff15fbb891"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "9671551f-74f4-47a2-8fec-8881add0188c"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "ae1dcc91-0d88-4313-9039-5105eb923515"
+            }
+        }
+    ],
+    "publishedFileId": 3026161689,
+    "previewImageGuid": {
+        "serializedGuid": "1c757b25-e59b-451a-88c0-3eeb77c08b39"
+    }
+}

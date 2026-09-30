@@ -1,0 +1,49 @@
+{
+    "Version": 0,
+    "title": "Cyber Circuit Racing",
+    "description": "Race and drift through this futuristic city against other players!\nEveryone has their car tuned up and nitro boosts installed.\nUse your boost often, but be tactical with it. Momentum will carry on after boosting.\nManaging your momentum is crucial! Try to drift around turns!\nUse item = burst of speed, 1 second cooldown.\nEvery lap gives 10 points! Race finishes when first driver reaches 50 points or 120 second timer runs out.\n\nAi players not supported.\n\nMusic by: Karl Casey @ White Bat Audio\nCheck out the song here: https://www.youtube.com/watch?v=W54cb2HL6Sk",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Race",
+        "Fast-paced",
+        "Skillful"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "f8fa6bc1-0dc4-4cde-8a58-96221eab7cba"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "c62e2fe5-bd81-42e4-a04b-49235c2fb943"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "53451dd5-1d3c-41c0-b1ff-b2ebd30c7e0c"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "9dcb0f8f-c6f1-4ea3-b6a4-132a639d8a54"
+            }
+        }
+    ],
+    "publishedFileId": 3305708642,
+    "previewImageGuid": {
+        "serializedGuid": "f8fa6bc1-0dc4-4cde-8a58-96221eab7cba"
+    }
+}

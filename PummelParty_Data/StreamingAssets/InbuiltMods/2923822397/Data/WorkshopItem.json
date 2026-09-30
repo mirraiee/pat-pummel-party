@@ -1,0 +1,40 @@
+{
+    "Version": 0,
+    "title": "Coin Block Blitz Reloaded",
+    "description": "Springe von unten an die Kisten, um Coins zu bekommen.\nDie goldene Kiste gibt dir dirket 5 Coins oder lässt dich sterben. 5 Coins oder Tod wechselt random zwischen ein paar Sekunden.\nPunch Cooldown = 2 Seconds\nJump from the bottom to the crates to get coins.\nThe golden crate will give you 5 coins or let you die. 5 coins or death changes randomly between a few seconds.\n",
+    "language": "German",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Funny"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 1,
+            "path": "nnUtcELf2w8",
+            "guid": {
+                "serializedGuid": "00000000-0000-0000-0000-000000000000"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "5912dcca-57e0-4c73-8215-b7166eb4e592"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "dc40363b-1e66-42a4-9553-5c4de5c330b6"
+            }
+        }
+    ],
+    "publishedFileId": 2923822397,
+    "previewImageGuid": {
+        "serializedGuid": "86bb6b9e-9f6a-442c-ac8b-c03bf2d7efaa"
+    }
+}

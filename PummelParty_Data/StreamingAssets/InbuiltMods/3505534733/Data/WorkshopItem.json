@@ -1,0 +1,63 @@
+{
+    "Version": 0,
+    "title": "Space Jump",
+    "description": "Travel across the platforms to get to the other side, but watch out! One of the platforms is a fake! You cannot punch.",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Fast-paced",
+        "Parkour",
+        "Platformer"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "1927008e-ddad-4b28-8a28-d2a2accb5f12"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "2cb03493-4d69-4bb2-83a0-ee567e80a482"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "92d32a16-b656-472b-b34b-f20ecd26423c"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "a37db6a5-e279-4e41-abda-a48db1c3cb05"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "bb24cbbd-73c7-44ea-b960-96e788b21815"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "c678a50f-7fa5-404c-b2a2-00f8b5e18b8d"
+            }
+        }
+    ],
+    "publishedFileId": 3505534733,
+    "previewImageGuid": {
+        "serializedGuid": "2cb03493-4d69-4bb2-83a0-ee567e80a482"
+    }
+}

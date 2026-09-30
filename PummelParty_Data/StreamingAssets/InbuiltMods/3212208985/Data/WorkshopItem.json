@@ -1,0 +1,42 @@
+{
+    "Version": 0,
+    "title": "Flying Bird - Bullet Bill Challenge",
+    "description": "Press \"Jump\" repeatedly to stay in the air and avoid the bullet willis. The red lasers will damage you. The bullet willis will kill you immediately. \n\nDrücke wiederholt \"Springen\", um in der Luft zu bleiben und weiche den Kugelwillis aus. Die roten Laser geben dir Schaden. Die Kugelwillis töten dich sofort. ",
+    "language": "German",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "King of the hill",
+        "Skillful",
+        "Creative"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 1,
+            "path": "4o-WbTfG2Ko",
+            "guid": {
+                "serializedGuid": "00000000-0000-0000-0000-000000000000"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "03f8ca89-d64e-4af1-ae4b-390b0b1cc065"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "a603b681-6783-4b04-adad-82d6ee3dd11a"
+            }
+        }
+    ],
+    "publishedFileId": 3212208985,
+    "previewImageGuid": {
+        "serializedGuid": "03f8ca89-d64e-4af1-ae4b-390b0b1cc065"
+    }
+}

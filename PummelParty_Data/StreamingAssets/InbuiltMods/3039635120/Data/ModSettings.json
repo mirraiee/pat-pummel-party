@@ -1,0 +1,332 @@
+{
+    "Version": 0,
+    "SimpleMinigameSettings": {
+        "NumberOfRounds": 1,
+        "RoundDuration": 80.0,
+        "PointsToWin": 5,
+        "PlacementCondition": 0,
+        "EndConditions": 1,
+        "ChosenPlayerType": 0,
+        "SpawnType": 1,
+        "MusicGUID": {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        "MusicVolume": 0.30300000309944155,
+        "MinPlayersAlive": 1,
+        "AmbienceGUID": {
+            "serializedGuid": "729422e8-5367-408f-9be4-c6b6057ec340"
+        },
+        "AmbienceVolume": 0.699999988079071
+    },
+    "SimpleModPlayerSettings": {
+        "topDownCameraMode": 0,
+        "topDownCameraViewAngle": 35.0,
+        "topDownCameraDistance": 10.0,
+        "topDownCameraPositionOffset": {
+            "x": 0.0,
+            "y": 3.950000047683716,
+            "z": -5.300000190734863
+        },
+        "topDownCamerafollowAllAreaRect": {
+            "serializedVersion": "2",
+            "x": -5.0,
+            "y": -5.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "sphereMaxMoveDist": 3.0,
+        "maxXMoveDist": 3.0,
+        "maxZMoveDist": 3.0,
+        "topDownCameraFollowAllType": 1,
+        "movementSpeed": 9.0,
+        "movementAcceleration": 75.0,
+        "movementDecelaration": 75.0,
+        "midAirMovementAcceleration": 8.0,
+        "playerGravity": 25.0,
+        "jumpCount": 1,
+        "canJump": true,
+        "jumpSpeed": 8.0,
+        "coyoteTime": 0.20000000298023225,
+        "stepOffset": 0.3109999895095825,
+        "canPunch": false,
+        "punchRechargeSpeed": 0.75,
+        "punchDamage": 1,
+        "punchStunsTarget": false,
+        "punchStunDuration": 1.0,
+        "stunImmunityLength": 3.0,
+        "shootDistance": 12.0,
+        "shootRechargeSpeed": 0.10000000149011612,
+        "startHoldingRifle": false,
+        "shotSpreadVertical": 45.0,
+        "shotSpreadHorizontal": 20.0,
+        "bulletsPerShot": 1,
+        "firstShotCentred": true,
+        "firingPattern": 0,
+        "respawnEnabled": true,
+        "respawnTime": 3.0,
+        "respawnInvulnerableTime": 1.0,
+        "respawnAnimationType": 1,
+        "hitTrigger": {
+            "m_type": 64,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "weaponHitTrigger": {
+            "m_type": 80,
+            "m_actions": [],
+            "m_hitType": 2
+        },
+        "tickTrigger": {
+            "m_type": 96,
+            "m_actions": [],
+            "m_interval": {
+                "valueType": 0,
+                "min": 1.0,
+                "max": 2.0
+            }
+        },
+        "onDeathTrigger": {
+            "m_type": 0,
+            "m_actions": [
+                {
+                    "rid": 1000
+                },
+                {
+                    "rid": 1001
+                }
+            ]
+        },
+        "onRespawnTrigger": {
+            "m_type": 0,
+            "m_actions": [
+                {
+                    "rid": 1002
+                }
+            ]
+        },
+        "onFirstSpawnTrigger": {
+            "m_type": 0,
+            "m_actions": [
+                {
+                    "rid": 1003
+                },
+                {
+                    "rid": 1004
+                },
+                {
+                    "rid": 1005
+                },
+                {
+                    "rid": 1006
+                },
+                {
+                    "rid": 1007
+                }
+            ]
+        },
+        "useHealth": false,
+        "showHealthBar": false,
+        "health": 100
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ChangeScoreAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 128,
+                    "m_version": 0,
+                    "m_targetFlags": 1,
+                    "m_targets": [],
+                    "m_operation": 1,
+                    "m_value": 1
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "SpawnEffectAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 160,
+                    "m_version": 0,
+                    "m_targetFlags": 1,
+                    "m_targets": [],
+                    "m_effectType": 4
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "GiveMinigameItemAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 1056,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_item": {
+                        "m_assetGUID": {
+                            "serializedGuid": "08aa6351-21cf-4703-85fa-8651190cb3c9"
+                        },
+                        "m_asset": {
+                            "enabled": true,
+                            "name": "PaintballGunItem",
+                            "guid": {
+                                "serializedGuid": "08aa6351-21cf-4703-85fa-8651190cb3c9"
+                            },
+                            "tags": [
+                                "prefabs",
+                                "tiny"
+                            ],
+                            "assetTypeString": "",
+                            "atlasIndex": 1,
+                            "atlasPtrIndex": 0,
+                            "assetLocation": {
+                                "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                            },
+                            "assetFolder": "/Prefabs/",
+                            "isEnabled": true
+                        }
+                    }
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "GiveMinigameItemAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 1056,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_item": {
+                        "m_assetGUID": {
+                            "serializedGuid": "08aa6351-21cf-4703-85fa-8651190cb3c9"
+                        },
+                        "m_asset": {
+                            "enabled": true,
+                            "name": "PaintballGunItem",
+                            "guid": {
+                                "serializedGuid": "08aa6351-21cf-4703-85fa-8651190cb3c9"
+                            },
+                            "tags": [
+                                "prefabs",
+                                "tiny"
+                            ],
+                            "assetTypeString": "",
+                            "atlasIndex": 1,
+                            "atlasPtrIndex": 0,
+                            "assetLocation": {
+                                "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                            },
+                            "assetFolder": "/Prefabs/",
+                            "isEnabled": true
+                        }
+                    }
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "ShowMessageAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 1024,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_messageTarget": 1,
+                    "m_message": "Begin!",
+                    "m_duration": 1.0
+                }
+            },
+            {
+                "rid": 1005,
+                "type": {
+                    "class": "WaitAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 32,
+                    "m_version": 0,
+                    "m_seconds": {
+                        "valueType": 0,
+                        "min": 60.0,
+                        "max": 60.0
+                    }
+                }
+            },
+            {
+                "rid": 1006,
+                "type": {
+                    "class": "ShowMessageAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 1024,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_messageTarget": 1,
+                    "m_message": "Final seconds!",
+                    "m_duration": 2.0
+                }
+            },
+            {
+                "rid": 1007,
+                "type": {
+                    "class": "GiveMinigameItemAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 1056,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_item": {
+                        "m_assetGUID": {
+                            "serializedGuid": "4baa78cb-3432-4b3f-9380-579333e3a5e1"
+                        },
+                        "m_asset": {
+                            "enabled": true,
+                            "name": "PaintballGunSuddenItem",
+                            "guid": {
+                                "serializedGuid": "4baa78cb-3432-4b3f-9380-579333e3a5e1"
+                            },
+                            "tags": [
+                                "prefabs",
+                                "tiny"
+                            ],
+                            "assetTypeString": "",
+                            "atlasIndex": 1,
+                            "atlasPtrIndex": 0,
+                            "assetLocation": {
+                                "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                            },
+                            "assetFolder": "/Prefabs/",
+                            "isEnabled": true
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

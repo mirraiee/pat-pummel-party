@@ -1,0 +1,189 @@
+{
+    "Version": 0,
+    "SimpleMinigameSettings": {
+        "NumberOfRounds": 1,
+        "RoundDuration": 73.0,
+        "PointsToWin": 5,
+        "PlacementCondition": 3,
+        "EndConditions": 5,
+        "ChosenPlayerType": 2,
+        "SpawnType": 0,
+        "ShowPlayerScore": true,
+        "OnlyShowCombinedTeamScoreInTeams": false,
+        "MusicGUID": {
+            "serializedGuid": "11138723-0839-447d-932f-f2db136a8319"
+        },
+        "MusicVolume": 0.6000000238418579,
+        "MinPlayersAlive": 1,
+        "AmbienceGUID": {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        "AmbienceVolume": 0.5
+    },
+    "SimpleModPlayerSettings": {
+        "topDownCameraMode": 1,
+        "topDownCameraViewAngle": 0.0,
+        "topDownCameraDistance": 15.0,
+        "topDownCameraPositionOffset": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+        },
+        "topDownCamerafollowAllAreaRect": {
+            "serializedVersion": "2",
+            "x": -5.0,
+            "y": -5.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "sphereMaxMoveDist": 3.0,
+        "maxXMoveDist": 3.0,
+        "maxZMoveDist": 3.0,
+        "topDownCameraFollowAllType": 1,
+        "movementSpeed": 8.0,
+        "movementAcceleration": 100.0,
+        "movementDecelaration": 100.0,
+        "midAirMovementAcceleration": 8.0,
+        "playerGravity": 50.0,
+        "jumpCount": 1001,
+        "canJump": true,
+        "jumpSpeed": 10.0,
+        "coyoteTime": 0.20000000298023225,
+        "stepOffset": 0.5,
+        "canPunch": false,
+        "punchRechargeSpeed": 0.75,
+        "punchDamage": 1,
+        "punchStunsTarget": false,
+        "punchStunDuration": 1.0,
+        "stunImmunityLength": 1.0,
+        "shootDistance": 12.0,
+        "shootRechargeSpeed": 0.10000000149011612,
+        "shotSpreadVertical": 45.0,
+        "shotSpreadHorizontal": 20.0,
+        "bulletsPerShot": 1,
+        "firstShotCentred": true,
+        "firingPattern": 0,
+        "respawnEnabled": false,
+        "respawnTime": 3.0,
+        "respawnInvulnerableTime": 1.0,
+        "respawnAnimationType": 0,
+        "hitTrigger": {
+            "m_type": 64,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "weaponHitTrigger": {
+            "m_type": 80,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "tickTrigger": {
+            "m_type": 96,
+            "m_actions": [],
+            "m_interval": {
+                "valueType": 0,
+                "min": 1.0,
+                "max": 2.0
+            }
+        },
+        "onDeathTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onRespawnTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onFirstSpawnTrigger": {
+            "m_type": 0,
+            "m_actions": [
+                {
+                    "rid": 1000
+                },
+                {
+                    "rid": 1001
+                }
+            ]
+        },
+        "onRoundEndTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "useHealth": true,
+        "showHealthBar": false,
+        "health": 100,
+        "showNameTags": true,
+        "nameTagType": 3
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "SetPlayerVisualAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 1248,
+                    "m_version": 1,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_prefab": {
+                        "m_assetGUID": {
+                            "serializedGuid": "6cda26e1-b248-4e0a-a9a8-dba5f18804b0"
+                        },
+                        "m_asset": {
+                            "enabled": true,
+                            "name": "Vogel",
+                            "guid": {
+                                "serializedGuid": "6cda26e1-b248-4e0a-a9a8-dba5f18804b0"
+                            },
+                            "tags": [
+                                "prefabs",
+                                "tiny"
+                            ],
+                            "assetTypeString": "",
+                            "atlasIndex": 41,
+                            "atlasPtrIndex": 2147483647,
+                            "assetLocation": {
+                                "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                            },
+                            "assetFolder": "/Prefabs/",
+                            "isEnabled": true
+                        }
+                    },
+                    "m_recolorPrefabUsingPlayerColor": true,
+                    "m_verticalLookTargetChildIndex": -1,
+                    "m_movementRotationTargetChildIndex": -1
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "SetActiveAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 320,
+                    "m_version": 0,
+                    "m_targetFlags": 4,
+                    "m_targets": [
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "caa005cb-7967-44b3-b502-28d6b9642acc"
+                            },
+                            "m_asset": {
+                                "m_FileID": -55278,
+                                "m_PathID": 0
+                            }
+                        }
+                    ],
+                    "m_newState": 1
+                }
+            }
+        ]
+    }
+}

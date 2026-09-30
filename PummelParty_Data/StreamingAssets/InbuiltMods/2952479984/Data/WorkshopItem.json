@@ -1,0 +1,28 @@
+{
+    "Version": 0,
+    "title": "Dungeon Obstacle Course",
+    "description": "Laufe in 60 Sekunden so weit wie du kannst. Für jeden gelaufenen Meter gibt es einen Punkt.\n\nRun as far as you can in 60 seconds. You get one point for every meter you run.\n",
+    "language": "German",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Fast-paced",
+        "Race",
+        "Hazards"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 1,
+            "path": "1BWYBGIPLPo",
+            "guid": {
+                "serializedGuid": "00000000-0000-0000-0000-000000000000"
+            }
+        }
+    ],
+    "publishedFileId": 2952479984,
+    "previewImageGuid": {
+        "serializedGuid": "c2b19316-ea98-452d-9a63-98bd11689129"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Version": 0,
+    "title": "Paintball Battle Arena",
+    "description": "1 shot 1 kill (1 point).\r\nPower ups around the map to increase fire rate.\r\nMatches last 80 seconds, whoever has the most points at the end wins!",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Deathmatch",
+        "Shooter",
+        "Skillful"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "c37379b5-07de-4a7b-9456-1256d670406a"
+            }
+        }
+    ],
+    "publishedFileId": 3039635120,
+    "previewImageGuid": {
+        "serializedGuid": "00000000-0000-0000-0000-000000000000"
+    }
+}

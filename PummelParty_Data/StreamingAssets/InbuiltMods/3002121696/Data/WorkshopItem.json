@@ -1,0 +1,20 @@
+{
+    "Version": 0,
+    "title": "The Great FORGE - Carnage in the Armory",
+    "description": "SHOOTING AT THE DWAVES !\nAs the great gunsmith introduces you to his latest invention, a marvelous gunpowder weapon called \"Boom-Stick\", a quick glance around you and you understand that everyone intends to seize it for the first time. exclusive use of his clan! Quick, grab one of these guns and no mercy !!!\n- You each have 30 life pts, your own secure respawn point and you are all equipped with the same weapon ;\n- Weapon characteristic : rate of fire 2 sec, one hit removes 10HP from the target and earns you 2 pts, for each kill 4 pts bonus ;\n- the arena is divided into 3 circular zones. High outer border, tactical advantage. Intermediate border : 10 pts at the entrance then every 15 sec. Central zone : 5 bonus pts at the entrance then every 10 sec.",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Creative",
+        "Shooter",
+        "Skillful"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 3002121696,
+    "previewImageGuid": {
+        "serializedGuid": "973a4626-db2e-4865-b137-8cb7bb2b40b6"
+    }
+}
