@@ -1,0 +1,42 @@
+{
+    "Version": 0,
+    "title": "Monkey Smash - DK64",
+    "description": "Enter one of the arenas from DK64 and fight for the most points. Pick up a weapon, defeat the other players. Do your best and have fun!",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Fast-paced",
+        "Items",
+        "Shooter"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "38b9a916-4f37-4797-911f-1d113f6f6f97"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "66e62257-7be6-4c4d-8fe3-dd641a034c7e"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "957bbf20-8278-42bb-a5f3-89e2ab065eaf"
+            }
+        }
+    ],
+    "publishedFileId": 3280532126,
+    "previewImageGuid": {
+        "serializedGuid": "1a612f71-6dba-40df-b74d-7db9dab32c56"
+    }
+}

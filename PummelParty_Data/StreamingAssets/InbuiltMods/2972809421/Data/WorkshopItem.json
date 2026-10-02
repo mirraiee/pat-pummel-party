@@ -1,0 +1,35 @@
+{
+    "Version": 0,
+    "title": "Shotgun Showdown",
+    "description": "Schnapp dir die Shotgun und knall deine Freunde über den Haufen! Nach 10 Schuss oder 10 Sekunden dropt die Shotgun und spawnt neu.\n\nGrab the shotgun and blast your friends! After 10 shots or 10 seconds, the shotgun will drop and respawn.\n\nShotgun Cooldown = 0.1 Second / Punch Cooldown = 2 Seconds\n\n",
+    "language": "German",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Deathmatch",
+        "Shooter",
+        "Funny"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 1,
+            "path": "qK_cmYbdP7M",
+            "guid": {
+                "serializedGuid": "00000000-0000-0000-0000-000000000000"
+            }
+        },
+        {
+            "type": 1,
+            "path": "GZKrLqRGgSs",
+            "guid": {
+                "serializedGuid": "00000000-0000-0000-0000-000000000000"
+            }
+        }
+    ],
+    "publishedFileId": 2972809421,
+    "previewImageGuid": {
+        "serializedGuid": "f2989b1f-1d6f-44f1-a98f-5fe6966139ab"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "Version": 0,
+    "title": "Raft (Ship Version)",
+    "description": "Used the Workshop Minigame: Raft, by Jonikalus as the base.\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=2909167900\n\nStay on the boat to get points. Stun and knock back your opposition.",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Unlocked",
+        "King of the hill",
+        "Meme",
+        "Funny"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 2916223303,
+    "previewImageGuid": {
+        "serializedGuid": "00000000-0000-0000-0000-000000000000"
+    }
+}

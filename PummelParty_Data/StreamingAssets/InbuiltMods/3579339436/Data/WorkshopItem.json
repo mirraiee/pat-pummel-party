@@ -1,0 +1,18 @@
+{
+    "Version": 0,
+    "title": "躲避箭矢",
+    "description": "每隔五秒箭矢往下落，需要站在石头底下避开!! 攻击间隔1.5秒，可以击退敌人 小心中间的岩浆",
+    "language": "Schinese",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Funny"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 3579339436,
+    "previewImageGuid": {
+        "serializedGuid": "0cfaef07-7001-465c-aab2-17a48187cfbd"
+    }
+}

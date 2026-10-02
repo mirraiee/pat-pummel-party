@@ -1,0 +1,17 @@
+{
+    "Version": 0,
+    "title": "Dead By Daylight",
+    "description": "The same rule with Dead By Daylight, One of the players will be picked as killer, and the others are survivors. Killer need to kill all survivors while survivors are trying to fix the gens to get point. 由于作者刚开始做模组，一些技术上的问题还没有解决（比如鬼也能修电机，人类揍人也会触发擦刀，鬼也能跑出门等等",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 3448955978,
+    "previewImageGuid": {
+        "serializedGuid": "0515f7d8-bb2d-43aa-bf18-992da7b9a763"
+    }
+}

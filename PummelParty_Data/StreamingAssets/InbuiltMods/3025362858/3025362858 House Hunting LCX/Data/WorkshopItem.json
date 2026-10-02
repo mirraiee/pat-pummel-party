@@ -1,0 +1,18 @@
+{
+    "Version": 0,
+    "title": "House Hunting LCX",
+    "description": "Punch Enabled",
+    "language": "Schinese",
+    "metaData": "",
+    "visibility": 1,
+    "tags": [
+        "Minigame",
+        "Unlocked"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 3025362858,
+    "previewImageGuid": {
+        "serializedGuid": "00000000-0000-0000-0000-000000000000"
+    }
+}

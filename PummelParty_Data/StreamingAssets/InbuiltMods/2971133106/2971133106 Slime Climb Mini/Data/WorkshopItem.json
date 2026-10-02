@@ -1,0 +1,20 @@
+{
+    "Version": 0,
+    "title": "Slime Climb Mini",
+    "description": "",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Fast-paced",
+        "Platformer",
+        "Hazards"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 2971133106,
+    "previewImageGuid": {
+        "serializedGuid": "8a60f6ea-e08f-40a4-b54d-bb65d8a5b3cb"
+    }
+}

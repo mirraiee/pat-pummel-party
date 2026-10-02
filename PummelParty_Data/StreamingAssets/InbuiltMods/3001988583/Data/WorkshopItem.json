@@ -1,0 +1,40 @@
+{
+    "Version": 0,
+    "title": "Night City",
+    "description": "Spawn, grab weapons, fight and be the last survivor Created by Anachronism Discord: Anachronism.exe ",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Shooter"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 1,
+            "path": "c4FD8OxJe28",
+            "guid": {
+                "serializedGuid": "00000000-0000-0000-0000-000000000000"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "61f5f6d7-ab7f-496a-bf6e-44bfd268c210"
+            }
+        },
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "f525b017-a37b-4780-b062-650cbe0fc415"
+            }
+        }
+    ],
+    "publishedFileId": 3001988583,
+    "previewImageGuid": {
+        "serializedGuid": "5892a63e-e804-4524-8cca-fc1a4c3f825f"
+    }
+}

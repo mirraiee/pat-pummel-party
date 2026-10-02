@@ -1,0 +1,18 @@
+{
+    "Version": 0,
+    "title": "Gameboard",
+    "description": "Use a variety of weapons to fight to the death in this third person shooter. The player with the most kills wins. \n\nMap from Toy Story 3: The Video Game",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Unlocked"
+    ],
+    "isInternal": false,
+    "previewFiles": [],
+    "publishedFileId": 3279533551,
+    "previewImageGuid": {
+        "serializedGuid": "46212d0f-d6f3-4a33-b2f4-7a7b77abe118"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "Version": 0,
+    "title": "Cortex Conundrum",
+    "description": "Dr Neo Cortex's castle is burning down, and he blames you for it! Try and survive his blasts for as long as possible. Over time Cortex will get faster at his shooting and bullets will even come flying in from the left and right side of the screen. Whoever is the last one standing wins!",
+    "language": "English",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Skillful",
+        "Hazards"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 0,
+            "path": "",
+            "guid": {
+                "serializedGuid": "13cf93fb-79d1-432e-8ee7-5fc1475b86c4"
+            }
+        }
+    ],
+    "publishedFileId": 2997713568,
+    "previewImageGuid": {
+        "serializedGuid": "7040d01c-51f9-4025-8791-fb07f7139478"
+    }
+}

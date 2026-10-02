@@ -1,0 +1,570 @@
+{
+    "Version": 0,
+    "SimpleMinigameSettings": {
+        "NumberOfRounds": 1,
+        "RoundDuration": 5.0,
+        "PointsToWin": 5,
+        "PlacementCondition": 3,
+        "EndConditions": 4,
+        "ChosenPlayerType": 0,
+        "SpawnType": 0,
+        "MusicGUID": {
+            "serializedGuid": "27bc5686-f64e-43fb-b521-9bc521981804"
+        },
+        "MusicVolume": 1.0,
+        "MinPlayersAlive": 1,
+        "AmbienceGUID": {
+            "serializedGuid": "00000000-0000-0000-0000-000000000000"
+        },
+        "AmbienceVolume": 0.5
+    },
+    "SimpleModPlayerSettings": {
+        "topDownCameraMode": 0,
+        "topDownCameraViewAngle": 35.0,
+        "topDownCameraDistance": 10.0,
+        "topDownCameraPositionOffset": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "topDownCamerafollowAllAreaRect": {
+            "serializedVersion": "2",
+            "x": -5.0,
+            "y": -5.0,
+            "width": 10.0,
+            "height": 10.0
+        },
+        "sphereMaxMoveDist": 3.0,
+        "maxXMoveDist": 3.0,
+        "maxZMoveDist": 3.0,
+        "topDownCameraFollowAllType": 1,
+        "movementSpeed": 10.0,
+        "movementAcceleration": 100.0,
+        "movementDecelaration": 100.0,
+        "midAirMovementAcceleration": 8.0,
+        "playerGravity": 25.0,
+        "jumpCount": 1,
+        "canJump": true,
+        "jumpSpeed": 7.0,
+        "coyoteTime": 0.20000000298023225,
+        "stepOffset": 0.5,
+        "canPunch": true,
+        "punchRechargeSpeed": 2.0,
+        "punchDamage": 1,
+        "punchStunsTarget": false,
+        "punchStunDuration": 1.0,
+        "stunImmunityLength": 1.0,
+        "shootDistance": 12.0,
+        "shootRechargeSpeed": 0.10000000149011612,
+        "startHoldingRifle": false,
+        "shotSpreadVertical": 45.0,
+        "shotSpreadHorizontal": 20.0,
+        "bulletsPerShot": 1,
+        "firstShotCentred": true,
+        "firingPattern": 0,
+        "respawnEnabled": false,
+        "respawnTime": 3.0,
+        "respawnInvulnerableTime": 1.0,
+        "respawnAnimationType": 0,
+        "hitTrigger": {
+            "m_type": 64,
+            "m_actions": [],
+            "m_hitType": 0
+        },
+        "weaponHitTrigger": {
+            "m_type": 80,
+            "m_actions": [
+                {
+                    "rid": 1000
+                },
+                {
+                    "rid": 1001
+                },
+                {
+                    "rid": 1002
+                },
+                {
+                    "rid": 1003
+                }
+            ],
+            "m_hitType": 1
+        },
+        "tickTrigger": {
+            "m_type": 96,
+            "m_actions": [],
+            "m_interval": {
+                "valueType": 0,
+                "min": 1.0,
+                "max": 2.0
+            }
+        },
+        "onDeathTrigger": {
+            "m_type": 0,
+            "m_actions": [
+                {
+                    "rid": 1004
+                }
+            ]
+        },
+        "onRespawnTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onFirstSpawnTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "onRoundEndTrigger": {
+            "m_type": 0,
+            "m_actions": []
+        },
+        "useHealth": true,
+        "showHealthBar": false,
+        "health": 100,
+        "nameTagType": 3
+    },
+    "references": {
+        "version": 2,
+        "RefIds": [
+            {
+                "rid": 1000,
+                "type": {
+                    "class": "ChangeVelocityAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 832,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_operation": 0,
+                    "m_space": 1,
+                    "m_localTarget": 0,
+                    "m_velocityDir": 4,
+                    "m_customDir": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "m_speed": 40.0
+                }
+            },
+            {
+                "rid": 1001,
+                "type": {
+                    "class": "ChangeVelocityAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 832,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_operation": 1,
+                    "m_space": 0,
+                    "m_localTarget": 1,
+                    "m_velocityDir": 0,
+                    "m_customDir": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "m_speed": 1.0
+                }
+            },
+            {
+                "rid": 1002,
+                "type": {
+                    "class": "PlaySoundAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 544,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_clip": {
+                        "m_assetGUID": {
+                            "serializedGuid": "9ef9131a-711d-43a9-9187-adaf0b1e5932"
+                        },
+                        "m_asset": {
+                            "m_FileID": -891686,
+                            "m_PathID": 0
+                        }
+                    },
+                    "m_volume": 0.6000000238418579
+                }
+            },
+            {
+                "rid": 1003,
+                "type": {
+                    "class": "WaitAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 32,
+                    "m_version": 0,
+                    "m_seconds": {
+                        "valueType": 0,
+                        "min": 1.0,
+                        "max": 2.0
+                    }
+                }
+            },
+            {
+                "rid": 1004,
+                "type": {
+                    "class": "SpawnPrefabAction",
+                    "ns": "ModSystem.Logic",
+                    "asm": "Assembly-CSharp"
+                },
+                "data": {
+                    "m_type": 576,
+                    "m_version": 0,
+                    "m_targetFlags": 2,
+                    "m_targets": [],
+                    "m_prefabs": [
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "80ca8307-9dec-4d80-8fc9-0282b1b6d4df"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 01",
+                                "guid": {
+                                    "serializedGuid": "80ca8307-9dec-4d80-8fc9-0282b1b6d4df"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        },
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "0dffa776-4493-460d-80c7-e733fdd26d25"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 02",
+                                "guid": {
+                                    "serializedGuid": "0dffa776-4493-460d-80c7-e733fdd26d25"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        },
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "888ead28-28c9-4f10-9723-a8dd51865655"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 03",
+                                "guid": {
+                                    "serializedGuid": "888ead28-28c9-4f10-9723-a8dd51865655"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        },
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "7969f285-84ed-4a53-9fdc-8231cf040571"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 04",
+                                "guid": {
+                                    "serializedGuid": "7969f285-84ed-4a53-9fdc-8231cf040571"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        },
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "bb806d48-0f63-4214-8b8d-724c8d3e8ce1"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 05",
+                                "guid": {
+                                    "serializedGuid": "bb806d48-0f63-4214-8b8d-724c8d3e8ce1"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        },
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "8f6a5d0b-e013-477b-a136-40b23c11b454"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 06",
+                                "guid": {
+                                    "serializedGuid": "8f6a5d0b-e013-477b-a136-40b23c11b454"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        },
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "0af40800-7271-4776-8ad3-14f8d65e69f9"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 07",
+                                "guid": {
+                                    "serializedGuid": "0af40800-7271-4776-8ad3-14f8d65e69f9"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        },
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "a136aca7-2a91-4473-a765-d779d2ef78f0"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 08",
+                                "guid": {
+                                    "serializedGuid": "a136aca7-2a91-4473-a765-d779d2ef78f0"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        },
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "39fecee0-62eb-404f-90de-ab28f342aad5"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 09",
+                                "guid": {
+                                    "serializedGuid": "39fecee0-62eb-404f-90de-ab28f342aad5"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        },
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "c060fe3f-682d-409f-a888-b9b7bb03ff60"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 10",
+                                "guid": {
+                                    "serializedGuid": "c060fe3f-682d-409f-a888-b9b7bb03ff60"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        },
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "5855fa1e-b09f-4c96-8538-53720875a1ad"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 11",
+                                "guid": {
+                                    "serializedGuid": "5855fa1e-b09f-4c96-8538-53720875a1ad"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        },
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "0ce31952-9367-4b0b-9a1f-7f51e0142ed8"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 12",
+                                "guid": {
+                                    "serializedGuid": "0ce31952-9367-4b0b-9a1f-7f51e0142ed8"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        },
+                        {
+                            "m_assetGUID": {
+                                "serializedGuid": "3af2a686-3360-4335-a688-120f8d1178f2"
+                            },
+                            "m_asset": {
+                                "enabled": true,
+                                "name": "Schrei 13",
+                                "guid": {
+                                    "serializedGuid": "3af2a686-3360-4335-a688-120f8d1178f2"
+                                },
+                                "tags": [
+                                    "prefabs",
+                                    "tiny"
+                                ],
+                                "assetTypeString": "",
+                                "atlasIndex": 1,
+                                "atlasPtrIndex": 0,
+                                "assetLocation": {
+                                    "serializedGuid": "757b15db-4305-4406-b767-1ec002daa769"
+                                },
+                                "assetFolder": "/Prefabs/",
+                                "isEnabled": true
+                            }
+                        }
+                    ],
+                    "m_spawnAtPosition": false,
+                    "m_position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "m_rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "m_parentToTarget": false,
+                    "m_targetPositionOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "m_targetRotationOffset": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            }
+        ]
+    }
+}

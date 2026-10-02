@@ -1,0 +1,18 @@
+# Blender 4.1.1
+# www.blender.org
+mtllib photo.mtl
+o pictureFrame3_room:ST_Bonnie_Woody_Jordan:bonnTrash_Bon_4cc3609
+v 0.105181 0.115292 -0.138417
+v 0.105181 0.115292 -0.123056
+v 0.105181 0.126945 -0.138417
+v 0.105181 0.126945 -0.123056
+vn -1.0000 -0.0000 -0.0000
+vt -0.006402 0.039442
+vt 1.006841 0.039442
+vt -0.006402 0.957657
+vt 1.006841 0.957657
+s 1
+g pictureFrame3_room:ST_Bonnie_Woody_Jordan:bonnTrash_Bon_4cc3609_room:ST_Bonnie_Woody_Jordan:bonnTrash_BonnieRoom_Picture2
+usemtl room:ST_Bonnie_Woody_Jordan:bonnTrash_BonnieRoom_Picture2
+f 1/1/1 2/2/1 3/3/1
+f 3/3/1 2/2/1 4/4/1

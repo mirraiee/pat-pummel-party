@@ -1,0 +1,27 @@
+{
+    "Version": 0,
+    "title": "Floating Islands Deathmatch",
+    "description": "Schieß deine Gegner mit der Shotgun in die Säure. Alles ist zerstörbar, bis auf Steine und Brücken.\nShoot your opponents into acid with the Shotgun. Everything is destructible, except for stones and bridges.\n\nStandard Shotgun Cooldown = 1 Second / Special Shotgun Cooldown = 0.1 Second \nHit = +10 Points / Kill = +20 Points / Dead = -10 Points\n",
+    "language": "German",
+    "metaData": "",
+    "visibility": 0,
+    "tags": [
+        "Minigame",
+        "Deathmatch",
+        "Shooter"
+    ],
+    "isInternal": false,
+    "previewFiles": [
+        {
+            "type": 1,
+            "path": "0GnNrgIkDq8",
+            "guid": {
+                "serializedGuid": "00000000-0000-0000-0000-000000000000"
+            }
+        }
+    ],
+    "publishedFileId": 2971022591,
+    "previewImageGuid": {
+        "serializedGuid": "05c45718-26d0-48dc-a3d1-a4c64685a326"
+    }
+}
